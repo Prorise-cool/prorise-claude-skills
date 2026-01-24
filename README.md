@@ -6,7 +6,7 @@
 
 ## 特性
 
-- **42+ Skills** - 涵盖开发、设计、运维、营销等多个领域
+- **41+ Skills** - 涵盖开发、设计、运维、营销等多个领域
 - **自动更新** - 仓库更新时自动生成 changelog 和更新文档
 - **按需下载** - 使用 sparse-checkout 只下载需要的 skill
 
@@ -32,7 +32,6 @@
 | [file-organizer](.claude/skills/file-organizer) | 通过理解上下文、查找重复项、建议更好的结构并自动化清理任务，智能地组织您计算机上的文件和文件夹。减少认知负担，无需手动操作即可保持数字工作区整洁。 |
 | [frontend-specialist](.claude/skills/frontend-specialist) | 提供前端开发、UI 实现、移动应用开发和现代前端框架能力。当需要实现用户界面、构建组件或开发移动应用时使用。 |
 | [gh-bootstrap](.claude/skills/gh-bootstrap) | 一站式 GitHub 仓库配置初始化工具。 |
-| [git-workflow-helper](.claude/skills/git-workflow-helper) | 提供 Git 工作流最佳实践指导，包括分支策略、提交规范、合并冲突解决和代码审查流程。帮助团队建立一致的 Git 使用规范。 |
 | [internal-comms](.claude/skills/internal-comms) | 一套资源，帮助我使用公司喜欢的格式编写各种内部通信。每当要求编写某种内部通信（状态报告、领导更新、3P 更新、公司通讯、常见问题、事件报告、项目更新等）时... |
 | [issue-manage](.claude/skills/issue-manage) | Interactive issue management with menu-driven CRUD operations. Use when manag... |
 | [language-framework-specialist](.claude/skills/language-framework-specialist) | '提供特定编程语言和框架的深度专业知识。当需要处理特定技术栈的复杂问题时使用' |
@@ -132,5 +131,5 @@ MIT License
 
 ---
 
-*最后更新: 2026-01-24T03:14:48.491Z*
-*Skills 数量: 42*
+*最后更新: 2026-01-24T03:18:26.771Z*
+*Skills 数量: 41*
