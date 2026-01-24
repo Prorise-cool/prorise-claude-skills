@@ -17,9 +17,10 @@ const SKILLS_DIR = '.claude/skills';
 function getSkillsChanges() {
   try {
     // 获取最近一次提交的变更文件
-    const diff = execSync('git diff --name-status HEAD~1 HEAD 2>/dev/null || echo ""', {
+    const diff = execSync('git diff --name-status HEAD~1 HEAD', {
       encoding: 'utf-8',
-      cwd: path.join(__dirname, '..')
+      cwd: path.join(__dirname, '..'),
+      stdio: ['pipe', 'pipe', 'pipe']  // 跨平台兼容，捕获 stderr
     }).trim();
 
     if (!diff) return { added: [], modified: [], deleted: [] };

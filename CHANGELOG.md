@@ -1,5 +1,17 @@
 # Changelog
 
+## [2026-01-24]
+
+### Removed
+
+- **test-demo-skill**: Removed
+
+## [2026-01-24]
+
+### Added
+
+- **test-demo-skill**: 这是一个用于演示 changelog 自动更新的测试 skill
+
 All notable changes to this project will be documented in this file.
 
 ## [2026-01-24] - Initial Release
