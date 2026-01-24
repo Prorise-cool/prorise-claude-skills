@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "generated": "2026-01-24T02:36:39.428Z",
-  "count": 41,
+  "generated": "2026-01-24T03:14:48.491Z",
+  "count": 42,
   "skills": [
     {
       "name": "architecture-specialist",
@@ -127,6 +127,13 @@
       "description": "一站式 GitHub 仓库配置初始化工具。",
       "path": ".claude/skills/gh-bootstrap",
       "directory": "gh-bootstrap",
+      "hasCommandJson": false
+    },
+    {
+      "name": "git-workflow-helper",
+      "description": "提供 Git 工作流最佳实践指导，包括分支策略、提交规范、合并冲突解决和代码审查流程。帮助团队建立一致的 Git 使用规范。",
+      "path": ".claude/skills/git-workflow-helper",
+      "directory": "git-workflow-helper",
       "hasCommandJson": false
     },
     {

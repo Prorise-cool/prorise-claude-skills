@@ -2,6 +2,12 @@
 
 ## [2026-01-24]
 
+### Added
+
+- **git-workflow-helper**: 提供 Git 工作流最佳实践指导，包括分支策略、提交规范、合并冲突解决和代码审查流程。帮助团队建立一致的 Git 使用规范。
+
+## [2026-01-24]
+
 ### Removed
 
 - **test-demo-skill**: Removed
