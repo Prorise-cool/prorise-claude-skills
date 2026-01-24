@@ -2,7 +2,7 @@
 
 一个开源的 Claude Code Skills 集合，提供专业的工作流、工具集成和领域专业知识。
 
-[![Auto Update](https://github.com/prorise/prorise-claude-skills/actions/workflows/auto-update-docs.yml/badge.svg)](https://github.com/prorise/prorise-claude-skills/actions/workflows/auto-update-docs.yml)
+[![Auto Update](https://github.com/Prorise-cool/prorise-claude-skills/actions/workflows/auto-update-docs.yml/badge.svg)](https://github.com/Prorise-cool/prorise-claude-skills/actions/workflows/auto-update-docs.yml)
 
 ## 特性
 
@@ -61,7 +61,7 @@
 ### 方式一：克隆整个仓库
 
 ```bash
-git clone https://github.com/prorise/prorise-claude-skills.git
+git clone https://github.com/Prorise-cool/prorise-claude-skills.git
 cp -r prorise-claude-skills/.claude/skills/* ~/.claude/skills/
 ```
 
@@ -71,7 +71,7 @@ cp -r prorise-claude-skills/.claude/skills/* ~/.claude/skills/
 # 1. 创建空仓库
 mkdir claude-skills && cd claude-skills
 git init
-git remote add origin https://github.com/prorise/prorise-claude-skills.git
+git remote add origin https://github.com/Prorise-cool/prorise-claude-skills.git
 
 # 2. 启用 sparse-checkout
 git config core.sparseCheckout true
