@@ -1,0 +1,52 @@
+name: Auto Update Docs
+
+on:
+  push:
+    paths:
+      - '.claude/skills/**'
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-docs:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Extract skills metadata
+        run: node scripts/extract-skills-metadata.js
+
+      - name: Generate README
+        run: node scripts/generate-readme.js
+
+      - name: Generate Changelog
+        run: node scripts/generate-changelog.js
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet README.md CHANGELOG.md skills-manifest.json || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md CHANGELOG.md skills-manifest.json
+          git commit -m "docs: auto-update README and CHANGELOG [skip ci]"
+          git push

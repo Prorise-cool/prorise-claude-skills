@@ -1,0 +1,294 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-01-24T02:36:39.428Z",
+  "count": 41,
+  "skills": [
+    {
+      "name": "architecture-specialist",
+      "description": "提供系统架构设计、技术选型、架构审查和组件设计能力。当需要设计新系统、重构现有架构或进行架构审查时使用。",
+      "path": ".claude/skills/architecture-specialist",
+      "directory": "architecture-specialist",
+      "hasCommandJson": false
+    },
+    {
+      "name": "artifacts-builder",
+      "description": "一套用于使用现代前端 Web 技术（React、Tailwind CSS、shadcn/ui）创建复杂的多组件 claude.ai HTML 工件的工具集。适用于需要状态管理、路由或 shadcn/ui 组件的复杂工件，不适用于简单的单文件 HTML/JSX 工件。",
+      "path": ".claude/skills/artifacts-builder",
+      "directory": "artifacts-builder",
+      "hasCommandJson": false
+    },
+    {
+      "name": "backend-specialist",
+      "description": "提供后端开发、API 设计、数据库交互和框架特定开发能力。当需要实现后端功能、设计 API 或处理数据层逻辑时使用。",
+      "path": ".claude/skills/backend-specialist",
+      "directory": "backend-specialist",
+      "hasCommandJson": false
+    },
+    {
+      "name": "ccw",
+      "description": "Stateless workflow orchestrator. Auto-selects optimal workflow based on task intent. Triggers \"ccw\", \"workflow\".",
+      "path": ".claude/skills/ccw",
+      "directory": "ccw",
+      "hasCommandJson": true
+    },
+    {
+      "name": "ccw-help",
+      "description": "CCW command help system. Search, browse, recommend commands. Triggers \"ccw-help\", \"ccw-issue\".",
+      "path": ".claude/skills/ccw-help",
+      "directory": "ccw-help",
+      "hasCommandJson": true
+    },
+    {
+      "name": "ccw-loop",
+      "description": "Stateless iterative development loop workflow with documented progress. Supports develop, debug, and validate phases with file-based state tracking. Triggers on \"ccw-loop\", \"dev loop\", \"development loop\", \"开发循环\", \"迭代开发\".",
+      "path": ".claude/skills/ccw-loop",
+      "directory": "ccw-loop",
+      "hasCommandJson": false
+    },
+    {
+      "name": "changelog-generator",
+      "description": "通过分析提交历史、分类更改并将技术提交转换为清晰的、面向客户的发布说明，自动从 git 提交创建面向用户的更新日志。将数小时的手动更新日志编写工作缩短为几分钟的自动生成。",
+      "path": ".claude/skills/changelog-generator",
+      "directory": "changelog-generator",
+      "hasCommandJson": false
+    },
+    {
+      "name": "code-quality-specialist",
+      "description": "提供代码审查、性能分析、重构建议、错误诊断和调试能力。当需要代码质量评估、性能优化、或问题排查时使用。",
+      "path": ".claude/skills/code-quality-specialist",
+      "directory": "code-quality-specialist",
+      "hasCommandJson": false
+    },
+    {
+      "name": "competitive-ads-extractor",
+      "description": "从广告库（Facebook、LinkedIn 等）中提取和分析竞争对手的广告，以了解哪些消息、问题和创意方法有效。帮助激发和改进您自己的广告活动。",
+      "path": ".claude/skills/competitive-ads-extractor",
+      "directory": "competitive-ads-extractor",
+      "hasCommandJson": false
+    },
+    {
+      "name": "copyright-docs",
+      "description": "Generate software copyright design specification documents compliant with China Copyright Protection Center (CPCC) standards. Creates complete design documents with Mermaid diagrams based on source code analysis. Use for software copyright registration, generating design specification, creating CPCC-compliant documents, or documenting software for intellectual property protection. Triggers on \"软件著作权\", \"设计说明书\", \"版权登记\", \"CPCC\", \"软著申请\".",
+      "path": ".claude/skills/copyright-docs",
+      "directory": "copyright-docs",
+      "hasCommandJson": false
+    },
+    {
+      "name": "data-specialist",
+      "description": "提供数据库设计、优化、数据工程和数据分析能力。当需要处理数据库操作、数据管道或数据分析时使用。",
+      "path": ".claude/skills/data-specialist",
+      "directory": "data-specialist",
+      "hasCommandJson": false
+    },
+    {
+      "name": "design-specialist",
+      "description": "提供 UI/UX 设计、用户研究、视觉设计和品牌一致性能力。当需要设计界面、进行用户研究或创建视觉资产时使用。",
+      "path": ".claude/skills/design-specialist",
+      "directory": "design-specialist",
+      "hasCommandJson": false
+    },
+    {
+      "name": "devops-specialist",
+      "description": "提供部署、CI/CD、基础设施管理和 DevOps 自动化能力。当需要部署应用、配置基础设施或优化开发流程时使用。",
+      "path": ".claude/skills/devops-specialist",
+      "directory": "devops-specialist",
+      "hasCommandJson": false
+    },
+    {
+      "name": "documentation-specialist",
+      "description": "创建和维护技术文档、API 文档、代码注释和项目文档。当需要生成、更新或改进文档时使用。",
+      "path": ".claude/skills/documentation-specialist",
+      "directory": "documentation-specialist",
+      "hasCommandJson": false
+    },
+    {
+      "name": "domain-name-brainstormer",
+      "description": "为您的项目生成创意域名想法，并检查多个顶级域名（.com、.io、.dev、.ai 等）的可用性。节省数小时的头脑风暴和手动检查时间。",
+      "path": ".claude/skills/domain-name-brainstormer",
+      "directory": "domain-name-brainstormer",
+      "hasCommandJson": false
+    },
+    {
+      "name": "file-organizer",
+      "description": "通过理解上下文、查找重复项、建议更好的结构并自动化清理任务，智能地组织您计算机上的文件和文件夹。减少认知负担，无需手动操作即可保持数字工作区整洁。",
+      "path": ".claude/skills/file-organizer",
+      "directory": "file-organizer",
+      "hasCommandJson": false
+    },
+    {
+      "name": "frontend-specialist",
+      "description": "提供前端开发、UI 实现、移动应用开发和现代前端框架能力。当需要实现用户界面、构建组件或开发移动应用时使用。",
+      "path": ".claude/skills/frontend-specialist",
+      "directory": "frontend-specialist",
+      "hasCommandJson": false
+    },
+    {
+      "name": "gh-bootstrap",
+      "description": "一站式 GitHub 仓库配置初始化工具。",
+      "path": ".claude/skills/gh-bootstrap",
+      "directory": "gh-bootstrap",
+      "hasCommandJson": false
+    },
+    {
+      "name": "internal-comms",
+      "description": "一套资源，帮助我使用公司喜欢的格式编写各种内部通信。每当要求编写某种内部通信（状态报告、领导更新、3P 更新、公司通讯、常见问题、事件报告、项目更新等）时，Claude 应使用此技能。",
+      "path": ".claude/skills/internal-comms",
+      "directory": "internal-comms",
+      "hasCommandJson": false
+    },
+    {
+      "name": "issue-manage",
+      "description": "Interactive issue management with menu-driven CRUD operations. Use when managing issues, viewing issue status, editing issue fields, performing bulk operations, or viewing issue history. Triggers on \"manage issue\", \"list issues\", \"edit issue\", \"delete issue\", \"bulk update\", \"issue dashboard\", \"issue history\", \"completed issues\".",
+      "path": ".claude/skills/issue-manage",
+      "directory": "issue-manage",
+      "hasCommandJson": false
+    },
+    {
+      "name": "language-framework-specialist",
+      "description": "'提供特定编程语言和框架的深度专业知识。当需要处理特定技术栈的复杂问题时使用'",
+      "path": ".claude/skills/language-framework-specialist",
+      "directory": "language-framework-specialist",
+      "hasCommandJson": false
+    },
+    {
+      "name": "lead-research-assistant",
+      "description": "通过分析您的业务、搜索目标公司并提供可行的联系策略，为您的产品或服务识别高质量潜在客户。非常适合销售、业务开发和营销专业人士。",
+      "path": ".claude/skills/lead-research-assistant",
+      "directory": "lead-research-assistant",
+      "hasCommandJson": false
+    },
+    {
+      "name": "marketing-specialist",
+      "description": "提供内容营销、增长策略、社交媒体管理和应用商店优化能力。当需要创建营销内容、制定增长策略或管理社交媒体时使用。",
+      "path": ".claude/skills/marketing-specialist",
+      "directory": "marketing-specialist",
+      "hasCommandJson": false
+    },
+    {
+      "name": "mcp-builder",
+      "description": "创建高质量 MCP（模型上下文协议）服务器的指南，使 LLM 能够通过精心设计的工具与外部服务交互。在构建 MCP 服务器以集成外部 API 或服务时使用，无论是 Python (FastMCP) 还是 Node/TypeScript (MCP SDK)。",
+      "path": ".claude/skills/mcp-builder",
+      "directory": "mcp-builder",
+      "hasCommandJson": false
+    },
+    {
+      "name": "meeting-insights-analyzer",
+      "description": "分析会议记录和录音，以发现行为模式、沟通洞察和可行的反馈。识别您何时避免冲突、使用填充词、主导对话或错过倾听的机会。非常适合寻求提高沟通和领导技能的专业人士。",
+      "path": ".claude/skills/meeting-insights-analyzer",
+      "directory": "meeting-insights-analyzer",
+      "hasCommandJson": false
+    },
+    {
+      "name": "operations-specialist",
+      "description": "提供运营分析、财务跟踪、基础设施维护和客户支持能力。当需要处理运营任务、生成报告或维护系统时使用。",
+      "path": ".claude/skills/operations-specialist",
+      "directory": "operations-specialist",
+      "hasCommandJson": false
+    },
+    {
+      "name": "product-specialist",
+      "description": "提供产品规划、需求分析、市场研究和业务分析能力。当需要进行产品决策、需求分析或市场研究时使用。",
+      "path": ".claude/skills/product-specialist",
+      "directory": "product-specialist",
+      "hasCommandJson": false
+    },
+    {
+      "name": "project-analyze",
+      "description": "Multi-phase iterative project analysis with Mermaid diagrams. Generates architecture reports, design reports, method analysis reports. Use when analyzing codebases, understanding project structure, reviewing architecture, exploring design patterns, or documenting system components. Triggers on \"analyze project\", \"architecture report\", \"design analysis\", \"code structure\", \"system overview\".",
+      "path": ".claude/skills/project-analyze",
+      "directory": "project-analyze",
+      "hasCommandJson": false
+    },
+    {
+      "name": "project-management-specialist",
+      "description": "提供项目管理、任务跟踪、团队协调和项目交付能力。当需要管理项目、跟踪进度或协调团队时使用。",
+      "path": ".claude/skills/project-management-specialist",
+      "directory": "project-management-specialist",
+      "hasCommandJson": false
+    },
+    {
+      "name": "Prompt Enhancer",
+      "description": "Transform vague prompts into actionable specs using intelligent analysis and session memory. Use when user input contains -e or --enhance flag.",
+      "path": ".claude/skills/prompt-enhancer",
+      "directory": "prompt-enhancer",
+      "hasCommandJson": false
+    },
+    {
+      "name": "review-code",
+      "description": "Multi-dimensional code review with structured reports. Analyzes correctness, readability, performance, security, testing, and architecture. Triggers on \"review code\", \"code review\", \"审查代码\", \"代码审查\".",
+      "path": ".claude/skills/review-code",
+      "directory": "review-code",
+      "hasCommandJson": false
+    },
+    {
+      "name": "security-specialist",
+      "description": "提供安全审计、风险评估和合规检查能力。当需要进行安全审查、风险评估或合规验证时使用。",
+      "path": ".claude/skills/security-specialist",
+      "directory": "security-specialist",
+      "hasCommandJson": false
+    },
+    {
+      "name": "skill-creator",
+      "description": "创建有效技能的指南。当用户想要创建新技能（或更新现有技能）以通过专业知识、工作流或工具集成扩展 Claude 的功能时，应使用此技能。",
+      "path": ".claude/skills/skill-creator",
+      "directory": "skill-creator",
+      "hasCommandJson": false
+    },
+    {
+      "name": "skill-generator",
+      "description": "Meta-skill for creating new Claude Code skills with configurable execution modes. Supports sequential (fixed order) and autonomous (stateless) phase patterns. Use for skill scaffolding, skill creation, or building new workflows. Triggers on \"create skill\", \"new skill\", \"skill generator\", \"生成技能\", \"创建技能\".",
+      "path": ".claude/skills/skill-generator",
+      "directory": "skill-generator",
+      "hasCommandJson": false
+    },
+    {
+      "name": "skill-tuning",
+      "description": "Universal skill diagnosis and optimization tool. Detect and fix skill execution issues including context explosion, long-tail forgetting, data flow disruption, and agent coordination failures. Supports Gemini CLI for deep analysis. Triggers on \"skill tuning\", \"tune skill\", \"skill diagnosis\", \"optimize skill\", \"skill debug\".",
+      "path": ".claude/skills/skill-tuning",
+      "directory": "skill-tuning",
+      "hasCommandJson": false
+    },
+    {
+      "name": "software-manual",
+      "description": "Generate interactive TiddlyWiki-style HTML software manuals with screenshots, API docs, and multi-level code examples. Use when creating user guides, software documentation, or API references. Triggers on \"software manual\", \"user guide\", \"generate manual\", \"create docs\".",
+      "path": ".claude/skills/software-manual",
+      "directory": "software-manual",
+      "hasCommandJson": false
+    },
+    {
+      "name": "testing-specialist",
+      "description": "提供测试策略、测试编写、测试执行和测试结果分析能力。当需要编写测试、修复测试或优化测试流程时使用。",
+      "path": ".claude/skills/testing-specialist",
+      "directory": "testing-specialist",
+      "hasCommandJson": false
+    },
+    {
+      "name": "text-formatter",
+      "description": "Transform and optimize text content with intelligent formatting. Output BBCode + Markdown hybrid format optimized for forums. Triggers on \"format text\", \"text formatter\", \"排版\", \"格式化文本\", \"BBCode\".",
+      "path": ".claude/skills/text-formatter",
+      "directory": "text-formatter",
+      "hasCommandJson": false
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "description": "\"UI/UX 设计智能，在设计页面时必须使用\"",
+      "path": ".claude/skills/ui-ux-pro-max",
+      "directory": "ui-ux-pro-max",
+      "hasCommandJson": false
+    },
+    {
+      "name": "vue-best-practices",
+      "description": "Vue 3 and Vue.js best practices for TypeScript, vue-tsc, and Volar. This skill should be used when writing, reviewing, or refactoring Vue components to ensure correct typing patterns. Triggers on tasks involving Vue components, props extraction, wrapper components, template type checking, or Volar configuration.",
+      "path": ".claude/skills/vue-best-practices",
+      "directory": "vue-best-practices",
+      "hasCommandJson": false
+    },
+    {
+      "name": "webapp-testing",
+      "description": "使用 Playwright 与本地 Web 应用程序交互和测试的工具包。支持验证前端功能、调试 UI 行为、捕获浏览器截图和查看浏览器日志。",
+      "path": ".claude/skills/webapp-testing",
+      "directory": "webapp-testing",
+      "hasCommandJson": false
+    }
+  ]
+}

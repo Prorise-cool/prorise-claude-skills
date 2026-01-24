@@ -1,0 +1,168 @@
+{
+  "summary": "搭建 GitHub 开源 skills 仓库自动化基础设施，包括自动 changelog 生成、README 动态更新、以及 sparse-checkout 下载指南。实现 push 触发的 CI/CD 流程，让用户能够方便地获取和同步 skills。",
+  "approach": "创建 GitHub Actions workflow 监听 .claude/skills 目录变更，自动提取 skill 元数据生成 changelog 和更新 README。提供 sparse-checkout 脚本和文档，让用户可以只下载需要的 skill。",
+  "tasks": [
+    {
+      "id": "T1",
+      "title": "创建 skills 元数据提取脚本",
+      "scope": "scripts/",
+      "action": "Create",
+      "description": "创建 Node.js 脚本，扫描 .claude/skills 目录，提取所有 SKILL.md 的 YAML frontmatter 元数据，输出 JSON 格式的 skills 清单",
+      "modification_points": [
+        {
+          "file": "scripts/extract-skills-metadata.js",
+          "target": "new file",
+          "change": "创建元数据提取脚本，解析 YAML frontmatter"
+        }
+      ],
+      "implementation": [
+        "创建 scripts/ 目录",
+        "编写 Node.js 脚本读取 .claude/skills/**/SKILL.md",
+        "使用 gray-matter 或正则解析 YAML frontmatter",
+        "输出 skills-manifest.json 包含 name, description, path"
+      ],
+      "acceptance": [
+        "脚本能正确提取所有 40+ skills 的元数据",
+        "输出 JSON 格式正确，包含 name, description, path 字段"
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "创建 README 和 CHANGELOG 生成脚本",
+      "scope": "scripts/",
+      "action": "Create",
+      "description": "创建脚本根据 skills 清单和 git diff 生成 README.md 和 CHANGELOG.md",
+      "modification_points": [
+        {
+          "file": "scripts/generate-readme.js",
+          "target": "new file",
+          "change": "生成 README.md，包含 skills 目录表格和使用说明"
+        },
+        {
+          "file": "scripts/generate-changelog.js",
+          "target": "new file",
+          "change": "生成 CHANGELOG.md，按 skill 分组展示变更"
+        }
+      ],
+      "implementation": [
+        "generate-readme.js: 读取 skills-manifest.json，生成 markdown 表格",
+        "包含项目介绍、skills 列表、sparse-checkout 使用说明",
+        "generate-changelog.js: 分析 git diff，识别 skills 变更",
+        "按 Added/Updated/Removed 分组，生成 changelog 条目"
+      ],
+      "depends_on": ["T1"],
+      "acceptance": [
+        "README 包含完整的 skills 目录表格",
+        "CHANGELOG 正确识别 skill 的新增/更新/删除"
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "创建 GitHub Actions 自动化 workflow",
+      "scope": ".github/workflows/",
+      "action": "Create",
+      "description": "创建 GitHub Actions workflow，在 push 时自动运行脚本更新 README 和 CHANGELOG",
+      "modification_points": [
+        {
+          "file": ".github/workflows/auto-update-docs.yml",
+          "target": "new file",
+          "change": "创建 workflow，监听 .claude/skills/** 变更"
+        }
+      ],
+      "implementation": [
+        "配置 on.push.paths 监听 .claude/skills/** 变更",
+        "安装 Node.js 依赖",
+        "运行元数据提取和文档生成脚本",
+        "使用 git commit 和 push 提交更新",
+        "配置 GITHUB_TOKEN 权限"
+      ],
+      "depends_on": ["T2"],
+      "acceptance": [
+        "push 到 skills 目录时自动触发 workflow",
+        "README 和 CHANGELOG 自动更新并提交"
+      ]
+    },
+    {
+      "id": "T4",
+      "title": "创建初始 README.md 和项目文档",
+      "scope": ".",
+      "action": "Create",
+      "description": "创建初始 README.md，包含项目介绍、skills 目录、安装说明和 sparse-checkout 指南",
+      "modification_points": [
+        {
+          "file": "README.md",
+          "target": "new file",
+          "change": "创建项目 README，包含完整文档"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "target": "new file",
+          "change": "创建初始 CHANGELOG"
+        }
+      ],
+      "implementation": [
+        "编写项目介绍和功能说明",
+        "生成当前所有 skills 的目录表格",
+        "编写 sparse-checkout 下载单个 skill 的详细指南",
+        "编写如何同步上游更新的说明",
+        "创建初始 CHANGELOG 记录首次发布"
+      ],
+      "depends_on": ["T1"],
+      "acceptance": [
+        "README 包含清晰的项目介绍",
+        "sparse-checkout 指南可操作",
+        "skills 目录完整列出所有 40+ skills"
+      ]
+    },
+    {
+      "id": "T5",
+      "title": "初始化 GitHub 仓库并推送",
+      "scope": ".",
+      "action": "Configure",
+      "description": "创建 GitHub 仓库 prorise-claude-skills，配置 remote 并推送初始代码",
+      "modification_points": [
+        {
+          "file": ".gitignore",
+          "target": "new file or update",
+          "change": "添加必要的 gitignore 规则"
+        }
+      ],
+      "implementation": [
+        "使用 gh repo create prorise-claude-skills --public",
+        "配置 git remote",
+        "创建/更新 .gitignore",
+        "推送所有代码到 GitHub"
+      ],
+      "depends_on": ["T3", "T4"],
+      "acceptance": [
+        "GitHub 仓库创建成功",
+        "所有代码推送完成",
+        "GitHub Actions workflow 首次运行成功"
+      ]
+    }
+  ],
+  "flow_control": {
+    "execution_order": [
+      {"phase": "parallel-1", "tasks": ["T1"], "type": "parallel"},
+      {"phase": "parallel-2", "tasks": ["T2", "T4"], "type": "parallel"},
+      {"phase": "sequential-1", "tasks": ["T3"], "type": "sequential"},
+      {"phase": "sequential-2", "tasks": ["T5"], "type": "sequential"}
+    ]
+  },
+  "focus_paths": [
+    "scripts/extract-skills-metadata.js",
+    "scripts/generate-readme.js",
+    "scripts/generate-changelog.js",
+    ".github/workflows/auto-update-docs.yml",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "estimated_time": "45-60 minutes",
+  "recommended_execution": "Agent",
+  "complexity": "Medium",
+  "_metadata": {
+    "timestamp": "2026-01-24T10:35:00.000Z",
+    "source": "direct-planning",
+    "planning_mode": "direct"
+  }
+}

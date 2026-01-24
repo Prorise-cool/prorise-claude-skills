@@ -1,0 +1,520 @@
+{
+  "_metadata": {
+    "version": "2.0.0",
+    "total_commands": 45,
+    "total_agents": 16,
+    "description": "Unified CCW-Help command index"
+  },
+
+  "essential_commands": [
+    "/workflow:lite-plan",
+    "/workflow:lite-fix",
+    "/workflow:plan",
+    "/workflow:execute",
+    "/workflow:session:start",
+    "/workflow:review-session-cycle",
+    "/memory:docs",
+    "/workflow:brainstorm:artifacts",
+    "/workflow:action-plan-verify",
+    "/version"
+  ],
+
+  "commands": [
+    {
+      "name": "lite-plan",
+      "command": "/workflow:lite-plan",
+      "description": "Lightweight interactive planning with in-memory plan, dispatches to lite-execute",
+      "arguments": "[-e|--explore] \"task\"|file.md",
+      "category": "workflow",
+      "difficulty": "Intermediate",
+      "essential": true,
+      "flow": {
+        "next_steps": ["/workflow:lite-execute"],
+        "alternatives": ["/workflow:plan"]
+      },
+      "source": "../../../commands/workflow/lite-plan.md"
+    },
+    {
+      "name": "lite-execute",
+      "command": "/workflow:lite-execute",
+      "description": "Execute based on in-memory plan or prompt",
+      "arguments": "[--in-memory] \"task\"|file-path",
+      "category": "workflow",
+      "difficulty": "Intermediate",
+      "flow": {
+        "prerequisites": ["/workflow:lite-plan", "/workflow:lite-fix"]
+      },
+      "source": "../../../commands/workflow/lite-execute.md"
+    },
+    {
+      "name": "lite-fix",
+      "command": "/workflow:lite-fix",
+      "description": "Lightweight bug diagnosis and fix with optional hotfix mode",
+      "arguments": "[--hotfix] \"bug description\"",
+      "category": "workflow",
+      "difficulty": "Intermediate",
+      "essential": true,
+      "flow": {
+        "next_steps": ["/workflow:lite-execute"],
+        "alternatives": ["/workflow:lite-plan"]
+      },
+      "source": "../../../commands/workflow/lite-fix.md"
+    },
+    {
+      "name": "plan",
+      "command": "/workflow:plan",
+      "description": "5-phase planning with task JSON generation",
+      "arguments": "\"description\"|file.md",
+      "category": "workflow",
+      "difficulty": "Intermediate",
+      "essential": true,
+      "flow": {
+        "next_steps": ["/workflow:action-plan-verify", "/workflow:execute"],
+        "alternatives": ["/workflow:tdd-plan"]
+      },
+      "source": "../../../commands/workflow/plan.md"
+    },
+    {
+      "name": "execute",
+      "command": "/workflow:execute",
+      "description": "Coordinate agent execution with DAG parallel processing",
+      "arguments": "[--resume-session=\"session-id\"]",
+      "category": "workflow",
+      "difficulty": "Intermediate",
+      "essential": true,
+      "flow": {
+        "prerequisites": ["/workflow:plan", "/workflow:tdd-plan"],
+        "next_steps": ["/workflow:review"]
+      },
+      "source": "../../../commands/workflow/execute.md"
+    },
+    {
+      "name": "action-plan-verify",
+      "command": "/workflow:action-plan-verify",
+      "description": "Cross-artifact consistency analysis",
+      "arguments": "[--session session-id]",
+      "category": "workflow",
+      "difficulty": "Intermediate",
+      "essential": true,
+      "flow": {
+        "prerequisites": ["/workflow:plan"],
+        "next_steps": ["/workflow:execute"]
+      },
+      "source": "../../../commands/workflow/action-plan-verify.md"
+    },
+    {
+      "name": "init",
+      "command": "/workflow:init",
+      "description": "Initialize project-level state",
+      "arguments": "[--regenerate]",
+      "category": "workflow",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/workflow/init.md"
+    },
+    {
+      "name": "clean",
+      "command": "/workflow:clean",
+      "description": "Intelligent code cleanup with stale artifact discovery",
+      "arguments": "[--dry-run] [\"focus\"]",
+      "category": "workflow",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/workflow/clean.md"
+    },
+    {
+      "name": "debug",
+      "command": "/workflow:debug",
+      "description": "Hypothesis-driven debugging with NDJSON logging",
+      "arguments": "\"bug description\"",
+      "category": "workflow",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/workflow/debug.md"
+    },
+    {
+      "name": "replan",
+      "command": "/workflow:replan",
+      "description": "Interactive workflow replanning",
+      "arguments": "[--session id] [task-id] \"requirements\"",
+      "category": "workflow",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/workflow/replan.md"
+    },
+    {
+      "name": "session:start",
+      "command": "/workflow:session:start",
+      "description": "Start or discover workflow sessions",
+      "arguments": "[--type <workflow|review|tdd>] [--auto|--new]",
+      "category": "workflow",
+      "subcategory": "session",
+      "difficulty": "Intermediate",
+      "essential": true,
+      "flow": {
+        "next_steps": ["/workflow:plan", "/workflow:execute"]
+      },
+      "source": "../../../commands/workflow/session/start.md"
+    },
+    {
+      "name": "session:list",
+      "command": "/workflow:session:list",
+      "description": "List all workflow sessions",
+      "arguments": "",
+      "category": "workflow",
+      "subcategory": "session",
+      "difficulty": "Beginner",
+      "source": "../../../commands/workflow/session/list.md"
+    },
+    {
+      "name": "session:resume",
+      "command": "/workflow:session:resume",
+      "description": "Resume paused workflow session",
+      "arguments": "",
+      "category": "workflow",
+      "subcategory": "session",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/workflow/session/resume.md"
+    },
+    {
+      "name": "session:complete",
+      "command": "/workflow:session:complete",
+      "description": "Mark session complete and archive",
+      "arguments": "",
+      "category": "workflow",
+      "subcategory": "session",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/workflow/session/complete.md"
+    },
+    {
+      "name": "brainstorm:auto-parallel",
+      "command": "/workflow:brainstorm:auto-parallel",
+      "description": "Parallel brainstorming with multi-role analysis",
+      "arguments": "\"topic\" [--count N]",
+      "category": "workflow",
+      "subcategory": "brainstorm",
+      "difficulty": "Advanced",
+      "source": "../../../commands/workflow/brainstorm/auto-parallel.md"
+    },
+    {
+      "name": "brainstorm:artifacts",
+      "command": "/workflow:brainstorm:artifacts",
+      "description": "Interactive clarification with guidance specification",
+      "arguments": "\"topic\" [--count N]",
+      "category": "workflow",
+      "subcategory": "brainstorm",
+      "difficulty": "Intermediate",
+      "essential": true,
+      "source": "../../../commands/workflow/brainstorm/artifacts.md"
+    },
+    {
+      "name": "brainstorm:synthesis",
+      "command": "/workflow:brainstorm:synthesis",
+      "description": "Refine role analyses through Q&A",
+      "arguments": "[--session session-id]",
+      "category": "workflow",
+      "subcategory": "brainstorm",
+      "difficulty": "Advanced",
+      "source": "../../../commands/workflow/brainstorm/synthesis.md"
+    },
+    {
+      "name": "tdd-plan",
+      "command": "/workflow:tdd-plan",
+      "description": "TDD planning with Red-Green-Refactor cycles",
+      "arguments": "\"feature\"|file.md",
+      "category": "workflow",
+      "difficulty": "Advanced",
+      "flow": {
+        "next_steps": ["/workflow:execute", "/workflow:tdd-verify"],
+        "alternatives": ["/workflow:plan"]
+      },
+      "source": "../../../commands/workflow/tdd-plan.md"
+    },
+    {
+      "name": "tdd-verify",
+      "command": "/workflow:tdd-verify",
+      "description": "Verify TDD compliance with coverage analysis",
+      "arguments": "[session-id]",
+      "category": "workflow",
+      "difficulty": "Advanced",
+      "flow": {
+        "prerequisites": ["/workflow:execute"]
+      },
+      "source": "../../../commands/workflow/tdd-verify.md"
+    },
+    {
+      "name": "review",
+      "command": "/workflow:review",
+      "description": "Post-implementation review (security/architecture/quality)",
+      "arguments": "[--type=<type>] [session-id]",
+      "category": "workflow",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/workflow/review.md"
+    },
+    {
+      "name": "review-session-cycle",
+      "command": "/workflow:review-session-cycle",
+      "description": "Multi-dimensional code review across 7 dimensions",
+      "arguments": "[session-id] [--dimensions=...]",
+      "category": "workflow",
+      "difficulty": "Intermediate",
+      "essential": true,
+      "flow": {
+        "prerequisites": ["/workflow:execute"],
+        "next_steps": ["/workflow:review-fix"]
+      },
+      "source": "../../../commands/workflow/review-session-cycle.md"
+    },
+    {
+      "name": "review-module-cycle",
+      "command": "/workflow:review-module-cycle",
+      "description": "Module-based multi-dimensional review",
+      "arguments": "<path-pattern> [--dimensions=...]",
+      "category": "workflow",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/workflow/review-module-cycle.md"
+    },
+    {
+      "name": "review-fix",
+      "command": "/workflow:review-fix",
+      "description": "Automated fixing of review findings",
+      "arguments": "<export-file|review-dir>",
+      "category": "workflow",
+      "difficulty": "Intermediate",
+      "flow": {
+        "prerequisites": ["/workflow:review-session-cycle", "/workflow:review-module-cycle"]
+      },
+      "source": "../../../commands/workflow/review-fix.md"
+    },
+    {
+      "name": "test-gen",
+      "command": "/workflow:test-gen",
+      "description": "Generate test session from implementation",
+      "arguments": "source-session-id",
+      "category": "workflow",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/workflow/test-gen.md"
+    },
+    {
+      "name": "test-fix-gen",
+      "command": "/workflow:test-fix-gen",
+      "description": "Create test-fix session with strategy",
+      "arguments": "session-id|\"description\"|file",
+      "category": "workflow",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/workflow/test-fix-gen.md"
+    },
+    {
+      "name": "test-cycle-execute",
+      "command": "/workflow:test-cycle-execute",
+      "description": "Execute test-fix with iterative cycles",
+      "arguments": "[--resume-session=id] [--max-iterations=N]",
+      "category": "workflow",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/workflow/test-cycle-execute.md"
+    },
+    {
+      "name": "issue:new",
+      "command": "/issue:new",
+      "description": "Create issue from GitHub URL or text",
+      "arguments": "<url|text> [--priority 1-5]",
+      "category": "issue",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/issue/new.md"
+    },
+    {
+      "name": "issue:discover",
+      "command": "/issue:discover",
+      "description": "Discover issues from multiple perspectives",
+      "arguments": "<path> [--perspectives=...]",
+      "category": "issue",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/issue/discover.md"
+    },
+    {
+      "name": "issue:plan",
+      "command": "/issue:plan",
+      "description": "Batch plan issue resolution",
+      "arguments": "--all-pending|<ids>",
+      "category": "issue",
+      "difficulty": "Intermediate",
+      "flow": {
+        "next_steps": ["/issue:queue"]
+      },
+      "source": "../../../commands/issue/plan.md"
+    },
+    {
+      "name": "issue:queue",
+      "command": "/issue:queue",
+      "description": "Form execution queue from solutions",
+      "arguments": "[--rebuild]",
+      "category": "issue",
+      "difficulty": "Intermediate",
+      "flow": {
+        "prerequisites": ["/issue:plan"],
+        "next_steps": ["/issue:execute"]
+      },
+      "source": "../../../commands/issue/queue.md"
+    },
+    {
+      "name": "issue:execute",
+      "command": "/issue:execute",
+      "description": "Execute queue with DAG parallel",
+      "arguments": "[--worktree]",
+      "category": "issue",
+      "difficulty": "Intermediate",
+      "flow": {
+        "prerequisites": ["/issue:queue"]
+      },
+      "source": "../../../commands/issue/execute.md"
+    },
+    {
+      "name": "docs",
+      "command": "/memory:docs",
+      "description": "Plan documentation workflow",
+      "arguments": "[path] [--tool <tool>]",
+      "category": "memory",
+      "difficulty": "Intermediate",
+      "essential": true,
+      "flow": {
+        "next_steps": ["/workflow:execute"]
+      },
+      "source": "../../../commands/memory/docs.md"
+    },
+    {
+      "name": "update-related",
+      "command": "/memory:update-related",
+      "description": "Update docs for git-changed modules",
+      "arguments": "[--tool <tool>]",
+      "category": "memory",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/memory/update-related.md"
+    },
+    {
+      "name": "update-full",
+      "command": "/memory:update-full",
+      "description": "Update all CLAUDE.md files",
+      "arguments": "[--tool <tool>]",
+      "category": "memory",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/memory/update-full.md"
+    },
+    {
+      "name": "skill-memory",
+      "command": "/memory:skill-memory",
+      "description": "Generate SKILL.md with loading index",
+      "arguments": "[path] [--regenerate]",
+      "category": "memory",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/memory/skill-memory.md"
+    },
+    {
+      "name": "load-skill-memory",
+      "command": "/memory:load-skill-memory",
+      "description": "Activate SKILL package for task",
+      "arguments": "[skill_name] \"task intent\"",
+      "category": "memory",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/memory/load-skill-memory.md"
+    },
+    {
+      "name": "load",
+      "command": "/memory:load",
+      "description": "Load project context via CLI",
+      "arguments": "[--tool <tool>] \"context\"",
+      "category": "memory",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/memory/load.md"
+    },
+    {
+      "name": "compact",
+      "command": "/memory:compact",
+      "description": "Compact session memory for recovery",
+      "arguments": "[description]",
+      "category": "memory",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/memory/compact.md"
+    },
+    {
+      "name": "task:create",
+      "command": "/task:create",
+      "description": "Generate task JSON from description",
+      "arguments": "\"task title\"",
+      "category": "task",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/task/create.md"
+    },
+    {
+      "name": "task:execute",
+      "command": "/task:execute",
+      "description": "Execute task JSON with agent",
+      "arguments": "task-id",
+      "category": "task",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/task/execute.md"
+    },
+    {
+      "name": "task:breakdown",
+      "command": "/task:breakdown",
+      "description": "Decompose task into subtasks",
+      "arguments": "task-id",
+      "category": "task",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/task/breakdown.md"
+    },
+    {
+      "name": "task:replan",
+      "command": "/task:replan",
+      "description": "Update task with new requirements",
+      "arguments": "task-id [\"text\"|file]",
+      "category": "task",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/task/replan.md"
+    },
+    {
+      "name": "version",
+      "command": "/version",
+      "description": "Display version and check updates",
+      "arguments": "",
+      "category": "general",
+      "difficulty": "Beginner",
+      "essential": true,
+      "source": "../../../commands/version.md"
+    },
+    {
+      "name": "enhance-prompt",
+      "command": "/enhance-prompt",
+      "description": "Transform prompts with session memory",
+      "arguments": "user input",
+      "category": "general",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/enhance-prompt.md"
+    },
+    {
+      "name": "cli-init",
+      "command": "/cli:cli-init",
+      "description": "Initialize CLI tool configurations (.gemini/, .qwen/) with technology-aware ignore rules",
+      "arguments": "[--tool gemini|qwen|all] [--preview] [--output path]",
+      "category": "cli",
+      "difficulty": "Intermediate",
+      "source": "../../../commands/cli/cli-init.md"
+    }
+  ],
+
+  "agents": [
+    { "name": "action-planning-agent", "description": "Task planning and generation", "source": "../../../agents/action-planning-agent.md" },
+    { "name": "cli-execution-agent", "description": "CLI tool execution", "source": "../../../agents/cli-execution-agent.md" },
+    { "name": "cli-explore-agent", "description": "Codebase exploration", "source": "../../../agents/cli-explore-agent.md" },
+    { "name": "cli-lite-planning-agent", "description": "Lightweight planning", "source": "../../../agents/cli-lite-planning-agent.md" },
+    { "name": "cli-planning-agent", "description": "CLI-based planning", "source": "../../../agents/cli-planning-agent.md" },
+    { "name": "code-developer", "description": "Code implementation", "source": "../../../agents/code-developer.md" },
+    { "name": "conceptual-planning-agent", "description": "Conceptual analysis", "source": "../../../agents/conceptual-planning-agent.md" },
+    { "name": "context-search-agent", "description": "Context discovery", "source": "../../../agents/context-search-agent.md" },
+    { "name": "doc-generator", "description": "Documentation generation", "source": "../../../agents/doc-generator.md" },
+    { "name": "issue-plan-agent", "description": "Issue planning", "source": "../../../agents/issue-plan-agent.md" },
+    { "name": "issue-queue-agent", "description": "Issue queue formation", "source": "../../../agents/issue-queue-agent.md" },
+    { "name": "memory-bridge", "description": "Documentation coordination", "source": "../../../agents/memory-bridge.md" },
+    { "name": "test-context-search-agent", "description": "Test context collection", "source": "../../../agents/test-context-search-agent.md" },
+    { "name": "test-fix-agent", "description": "Test execution and fixing", "source": "../../../agents/test-fix-agent.md" },
+    { "name": "ui-design-agent", "description": "UI design and prototyping", "source": "../../../agents/ui-design-agent.md" },
+    { "name": "universal-executor", "description": "Universal task execution", "source": "../../../agents/universal-executor.md" }
+  ],
+
+  "categories": ["workflow", "issue", "memory", "task", "general", "cli"]
+}
