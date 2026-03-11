@@ -4,6 +4,12 @@
 
 ### Added
 
+- **scraping-specialist**: 提供网站抓取、结构化数据提取、浏览器自动化、站点映射、搜索广告情报、社媒内容采集、评论分析与垂直站点采集能力。当任务涉及 scrape、crawl、extract、抓取网页、批量采集、Firecrawl、Playwright、Google Ads SERP、Facebook Ad Library、X/Twitter、Trustpilot 或求职平台数据采集时使用。
+
+## [2026-03-11]
+
+### Added
+
 - **product-specialist**: 提供产品规划、需求分析、市场研究和业务分析能力。当需要进行产品决策、需求分析或市场研究时使用。
 
 ### Updated
