@@ -28,6 +28,9 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Update expert skill indexes
+        run: node scripts/update-skill-index.js
+
       - name: Extract skills metadata
         run: node scripts/extract-skills-metadata.js
 
@@ -40,13 +43,13 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          git diff --quiet README.md CHANGELOG.md skills-manifest.json || echo "changes=true" >> $GITHUB_OUTPUT
+          git diff --quiet || echo "changes=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push changes
         if: steps.check_changes.outputs.changes == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add README.md CHANGELOG.md skills-manifest.json
-          git commit -m "docs: auto-update README and CHANGELOG [skip ci]"
+          git add .claude/skills/*/SKILL.md README.md CHANGELOG.md skills-manifest.json
+          git commit -m "docs: auto-update skill indexes and docs [skip ci]"
           git push

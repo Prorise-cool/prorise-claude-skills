@@ -10,6 +10,28 @@ description: 提供开源项目专属技能的组织与索引能力。当任务�
 
 - `references/domains/projects/`
 
+## Skill Index
+
+<!-- AUTO-GENERATED-SKILL-INDEX:START -->
+以下索引由 `node scripts/update-skill-index.js` 自动生成，用于让 Claude 在顶层专家触发后继续路由到最相关的子技能。
+
+### Claude 使用说明
+
+1. 先将用户当前任务与每个子技能的 `触发语义` 进行语义匹配，不要只看目录名。
+2. 一旦找到最相关的子技能，立即打开其 `相对路径` 指向的 `SKILL.md`，把它作为下一层入口文件。
+3. 进入子技能后，再根据该子技能自己的说明按需加载同目录下的 `references/`、`scripts/`、`assets/`，不要在顶层专家中预先展开大段细节。
+4. 如果多个子技能都相关，先加载最贴近主目标的那个，再按需补充其他子技能，避免一次性加载过多上下文。
+5. 下方 `相对路径` 均相对于当前顶层专家目录。
+
+### 子技能索引
+
+#### projects (1)
+- `ruoyi-framework`
+  - 触发语义: 使用 RuoYi-Vue 框架（SpringBoot + Spring Security + MyBatis + JWT + Vue）时应该使用此技能。它提供了环境设置、项目结构、后端 CRUD 开发、高级后端功能（权限、日志记录、调度、数据范围、多数据源）、前端开发（路由、请求处理、组件、i18n）、代码生成和插件集成（Docker、PostgreSQL、SpringBoot3、OSS）的指导。。由 RuoYi、ruoyi、PageHelper、@Excel、@PreAuthorize、@DataScope、@Log、ExcelUtil、AjaxResult、vue-element-admin、Element UI admin 等关键字触发。
+  - 相对路径: `references/domains/projects/ruoyi/SKILL.md`
+
+<!-- AUTO-GENERATED-SKILL-INDEX:END -->
+
 ## Notes
 
 - 顶层 `SKILL.md` 仅做索引导航，不承载大体量细节内容。
