@@ -1,0 +1,466 @@
+{
+  "generated_at": "2026-03-05T22:29:23.308314+08:00",
+  "policy": {
+    "source_of_truth": ".claude/skills/SKILL_WRITING_GUIDE.md",
+    "top_level_policy": "Top-level keeps only expert skills + approved exceptions",
+    "exceptions": [
+      "_shared",
+      "ccw",
+      "ccw-help",
+      "ccw-loop",
+      "SKILL_WRITING_GUIDE.md"
+    ],
+    "core_experts": [
+      "architecture-specialist",
+      "backend-specialist",
+      "frontend-specialist",
+      "data-specialist",
+      "security-specialist",
+      "testing-specialist",
+      "devops-specialist",
+      "code-quality-specialist",
+      "product-specialist",
+      "project-management-specialist",
+      "design-specialist",
+      "marketing-specialist",
+      "documentation-specialist",
+      "operations-specialist",
+      "language-framework-specialist"
+    ],
+    "framework_instance_experts": [
+      "ruoyi-specialist"
+    ]
+  },
+  "top_level_precise_mapping": [
+    {
+      "source": "artifacts-builder",
+      "action": "merge",
+      "target_expert": "frontend-specialist",
+      "target_path": "references/domains/artifact-engineering",
+      "reason": "Frontend artifact construction domain"
+    },
+    {
+      "source": "business-analysis",
+      "action": "merge",
+      "target_expert": "product-specialist",
+      "target_path": "references/domains/business-analysis",
+      "reason": "Product strategy and analysis domain"
+    },
+    {
+      "source": "changelog-generator",
+      "action": "merge",
+      "target_expert": "documentation-specialist",
+      "target_path": "references/domains/changelog-engineering",
+      "reason": "Documentation automation domain"
+    },
+    {
+      "source": "competitive-ads-extractor",
+      "action": "merge",
+      "target_expert": "marketing-specialist",
+      "target_path": "references/domains/competitive-intelligence",
+      "reason": "Marketing intelligence domain"
+    },
+    {
+      "source": "copyright-docs",
+      "action": "merge",
+      "target_expert": "documentation-specialist",
+      "target_path": "references/domains/compliance-copyright",
+      "reason": "Compliance documentation domain"
+    },
+    {
+      "source": "document-skills",
+      "action": "merge",
+      "target_expert": "documentation-specialist",
+      "target_path": "references/domains/document-formats",
+      "reason": "Document format handling domain"
+    },
+    {
+      "source": "domain-name-brainstormer",
+      "action": "merge",
+      "target_expert": "marketing-specialist",
+      "target_path": "references/domains/domain-branding",
+      "reason": "Branding and naming domain"
+    },
+    {
+      "source": "file-organizer",
+      "action": "merge",
+      "target_expert": "operations-specialist",
+      "target_path": "references/domains/workspace-organization",
+      "reason": "Operational file management domain"
+    },
+    {
+      "source": "gh-bootstrap",
+      "action": "merge",
+      "target_expert": "devops-specialist",
+      "target_path": "references/domains/github-platform/bootstrap",
+      "reason": "Repository bootstrap operations"
+    },
+    {
+      "source": "github-specialist",
+      "action": "merge",
+      "target_expert": "devops-specialist",
+      "target_path": "references/domains/github-platform/core",
+      "reason": "GitHub is a platform operations subdomain, not top-level expert"
+    },
+    {
+      "source": "internal-comms",
+      "action": "merge",
+      "target_expert": "documentation-specialist",
+      "target_path": "references/domains/internal-communications",
+      "reason": "Internal documentation/communication domain"
+    },
+    {
+      "source": "issue-manage",
+      "action": "merge",
+      "target_expert": "project-management-specialist",
+      "target_path": "references/domains/issue-lifecycle",
+      "reason": "Project management issue workflow"
+    },
+    {
+      "source": "lead-research-assistant",
+      "action": "merge",
+      "target_expert": "marketing-specialist",
+      "target_path": "references/domains/lead-research",
+      "reason": "Growth and lead research domain"
+    },
+    {
+      "source": "mcp-builder",
+      "action": "merge",
+      "target_expert": "backend-specialist",
+      "target_path": "references/domains/mcp-platform",
+      "reason": "Backend integration platform domain"
+    },
+    {
+      "source": "meeting-insights-analyzer",
+      "action": "merge",
+      "target_expert": "project-management-specialist",
+      "target_path": "references/domains/meeting-intelligence",
+      "reason": "Team/process management domain"
+    },
+    {
+      "source": "project-analyze",
+      "action": "merge",
+      "target_expert": "architecture-specialist",
+      "target_path": "references/domains/project-analysis",
+      "reason": "Architecture analysis domain"
+    },
+    {
+      "source": "prompt-enhancer",
+      "action": "merge",
+      "target_expert": "product-specialist",
+      "target_path": "references/domains/prompt-specification",
+      "reason": "Product requirement specification domain"
+    },
+    {
+      "source": "review-code",
+      "action": "merge",
+      "target_expert": "code-quality-specialist",
+      "target_path": "references/domains/review-workflow",
+      "reason": "Code quality review domain"
+    },
+    {
+      "source": "ruoyi-framework",
+      "action": "rename_as_expert",
+      "target_expert": "ruoyi-specialist",
+      "target_path": ".",
+      "reason": "Mature third-party framework should be standalone expert"
+    },
+    {
+      "source": "skill-creator",
+      "action": "merge",
+      "target_expert": "documentation-specialist",
+      "target_path": "references/domains/skill-authoring/creator",
+      "reason": "Skill authoring documentation domain"
+    },
+    {
+      "source": "skill-generator",
+      "action": "merge",
+      "target_expert": "documentation-specialist",
+      "target_path": "references/domains/skill-authoring/generator",
+      "reason": "Skill generation workflow domain"
+    },
+    {
+      "source": "skill-tuning",
+      "action": "merge",
+      "target_expert": "code-quality-specialist",
+      "target_path": "references/domains/skill-quality/tuning",
+      "reason": "Skill quality optimization domain"
+    },
+    {
+      "source": "software-manual",
+      "action": "merge",
+      "target_expert": "documentation-specialist",
+      "target_path": "references/domains/manual-generation",
+      "reason": "Documentation generation domain"
+    },
+    {
+      "source": "text-formatter",
+      "action": "merge",
+      "target_expert": "documentation-specialist",
+      "target_path": "references/domains/text-formatting",
+      "reason": "Text formatting domain"
+    },
+    {
+      "source": "ui-ux-pro-max",
+      "action": "merge",
+      "target_expert": "design-specialist",
+      "target_path": "references/domains/ui-design",
+      "reason": "UI design domain"
+    },
+    {
+      "source": "ux-research",
+      "action": "merge",
+      "target_expert": "design-specialist",
+      "target_path": "references/domains/ux-research",
+      "reason": "UX research domain"
+    },
+    {
+      "source": "vue-best-practices",
+      "action": "merge",
+      "target_expert": "frontend-specialist",
+      "target_path": "references/domains/vue",
+      "reason": "Frontend Vue domain"
+    },
+    {
+      "source": "webapp-testing",
+      "action": "merge",
+      "target_expert": "testing-specialist",
+      "target_path": "references/domains/webapp-testing",
+      "reason": "Web application testing domain"
+    }
+  ],
+  "backend_reference_precise_mapping": [
+    {
+      "source": "cursor_rules_actix-web.md",
+      "target": "references/domains/technologies/rust/actix-web.md"
+    },
+    {
+      "source": "cursor_rules_apollo-client.md",
+      "target": "references/domains/technologies/javascript-node/apollo-client.md"
+    },
+    {
+      "source": "cursor_rules_apollo-graphql.md",
+      "target": "references/domains/technologies/javascript-node/apollo-graphql.md"
+    },
+    {
+      "source": "cursor_rules_asp-net.md",
+      "target": "references/domains/technologies/dotnet/asp-net.md"
+    },
+    {
+      "source": "cursor_rules_bash.md",
+      "target": "references/domains/tooling/cli/bash.md"
+    },
+    {
+      "source": "cursor_rules_bottle.md",
+      "target": "references/domains/technologies/python/bottle.md"
+    },
+    {
+      "source": "cursor_rules_bun.md",
+      "target": "references/domains/technologies/javascript-node/bun.md"
+    },
+    {
+      "source": "cursor_rules_c-sharp.md",
+      "target": "references/domains/technologies/dotnet/c-sharp.md"
+    },
+    {
+      "source": "cursor_rules_databricks.md",
+      "target": "references/domains/platforms/infrastructure/databricks.md"
+    },
+    {
+      "source": "cursor_rules_discord-api.md",
+      "target": "references/domains/integrations/external-services/discord-api.md"
+    },
+    {
+      "source": "cursor_rules_django-orm.md",
+      "target": "references/domains/technologies/python/django/django-orm.md"
+    },
+    {
+      "source": "cursor_rules_django-rest-framework.md",
+      "target": "references/domains/technologies/python/django/django-rest-framework.md"
+    },
+    {
+      "source": "cursor_rules_django.md",
+      "target": "references/domains/technologies/python/django/index.md"
+    },
+    {
+      "source": "cursor_rules_emacs.md",
+      "target": "references/domains/tooling/cli/emacs.md"
+    },
+    {
+      "source": "cursor_rules_express.md",
+      "target": "references/domains/technologies/javascript-node/express.md"
+    },
+    {
+      "source": "cursor_rules_fastapi.md",
+      "target": "references/domains/technologies/python/fastapi.md"
+    },
+    {
+      "source": "cursor_rules_ffmpeg.md",
+      "target": "references/domains/tooling/media/ffmpeg.md"
+    },
+    {
+      "source": "cursor_rules_fiber.md",
+      "target": "references/domains/technologies/go/fiber.md"
+    },
+    {
+      "source": "cursor_rules_flask-restful.md",
+      "target": "references/domains/technologies/python/flask/flask-restful.md"
+    },
+    {
+      "source": "cursor_rules_flask.md",
+      "target": "references/domains/technologies/python/flask/index.md"
+    },
+    {
+      "source": "cursor_rules_git.md",
+      "target": "references/domains/tooling/cli/git.md"
+    },
+    {
+      "source": "cursor_rules_godot.md",
+      "target": "references/domains/technologies/runtime-ecosystem/godot.md"
+    },
+    {
+      "source": "cursor_rules_graphql.md",
+      "target": "references/domains/technologies/javascript-node/graphql.md"
+    },
+    {
+      "source": "cursor_rules_insomnia.md",
+      "target": "references/domains/tooling/api-testing/insomnia.md"
+    },
+    {
+      "source": "cursor_rules_laravel.md",
+      "target": "references/domains/technologies/php/laravel/index.md"
+    },
+    {
+      "source": "cursor_rules_microsoft-teams.md",
+      "target": "references/domains/integrations/external-services/microsoft-teams.md"
+    },
+    {
+      "source": "cursor_rules_nestjs.md",
+      "target": "references/domains/technologies/javascript-node/nestjs.md"
+    },
+    {
+      "source": "cursor_rules_nginx.md",
+      "target": "references/domains/platforms/infrastructure/nginx.md"
+    },
+    {
+      "source": "cursor_rules_notion-api.md",
+      "target": "references/domains/integrations/external-services/notion-api.md"
+    },
+    {
+      "source": "cursor_rules_phoenix.md",
+      "target": "references/domains/technologies/runtime-ecosystem/phoenix.md"
+    },
+    {
+      "source": "cursor_rules_php.md",
+      "target": "references/domains/technologies/runtime-ecosystem/php.md"
+    },
+    {
+      "source": "cursor_rules_postman.md",
+      "target": "references/domains/tooling/api-testing/postman.md"
+    },
+    {
+      "source": "cursor_rules_pyramid.md",
+      "target": "references/domains/technologies/python/pyramid.md"
+    },
+    {
+      "source": "cursor_rules_rocket.md",
+      "target": "references/domains/technologies/rust/rocket.md"
+    },
+    {
+      "source": "cursor_rules_ros.md",
+      "target": "references/domains/technologies/runtime-ecosystem/ros.md"
+    },
+    {
+      "source": "cursor_rules_ruby.md",
+      "target": "references/domains/technologies/ruby/ruby.md"
+    },
+    {
+      "source": "cursor_rules_sanic.md",
+      "target": "references/domains/technologies/python/sanic.md"
+    },
+    {
+      "source": "cursor_rules_servemux.md",
+      "target": "references/domains/technologies/go/servemux.md"
+    },
+    {
+      "source": "cursor_rules_solidity.md",
+      "target": "references/domains/technologies/runtime-ecosystem/solidity.md"
+    },
+    {
+      "source": "cursor_rules_spring.md",
+      "target": "references/domains/technologies/java/spring.md"
+    },
+    {
+      "source": "cursor_rules_springboot.md",
+      "target": "references/domains/technologies/java/springboot.md"
+    },
+    {
+      "source": "cursor_rules_stripe.md",
+      "target": "references/domains/platforms/infrastructure/stripe.md"
+    },
+    {
+      "source": "cursor_rules_tornado.md",
+      "target": "references/domains/technologies/python/tornado.md"
+    },
+    {
+      "source": "cursor_rules_unity.md",
+      "target": "references/domains/technologies/runtime-ecosystem/unity.md"
+    },
+    {
+      "source": "cursor_rules_unreal-engine.md",
+      "target": "references/domains/technologies/runtime-ecosystem/unreal-engine.md"
+    },
+    {
+      "source": "cursor_rules_vim.md",
+      "target": "references/domains/tooling/cli/vim.md"
+    },
+    {
+      "source": "cursor_rules_zsh.md",
+      "target": "references/domains/tooling/cli/zsh.md"
+    },
+    {
+      "source": "engineering_backend_ai-engineer.md",
+      "target": "references/domains/personas/backend/ai-engineer.md"
+    },
+    {
+      "source": "engineering_backend_backend-architect.md",
+      "target": "references/domains/personas/backend/backend-architect.md"
+    },
+    {
+      "source": "specialized_django_django-api-developer.md",
+      "target": "references/domains/technologies/python/django/django-api-developer.md"
+    },
+    {
+      "source": "specialized_django_django-backend-expert.md",
+      "target": "references/domains/technologies/python/django/django-backend-expert.md"
+    },
+    {
+      "source": "specialized_django_django-orm-expert.md",
+      "target": "references/domains/technologies/python/django/django-orm-expert.md"
+    },
+    {
+      "source": "specialized_laravel_laravel-backend-expert.md",
+      "target": "references/domains/technologies/php/laravel/laravel-backend-expert.md"
+    },
+    {
+      "source": "specialized_laravel_laravel-eloquent-expert.md",
+      "target": "references/domains/technologies/php/laravel/laravel-eloquent-expert.md"
+    },
+    {
+      "source": "specialized_rails_rails-activerecord-expert.md",
+      "target": "references/domains/technologies/ruby/rails/rails-activerecord-expert.md"
+    },
+    {
+      "source": "specialized_rails_rails-api-developer.md",
+      "target": "references/domains/technologies/ruby/rails/rails-api-developer.md"
+    },
+    {
+      "source": "specialized_rails_rails-backend-expert.md",
+      "target": "references/domains/technologies/ruby/rails/rails-backend-expert.md"
+    },
+    {
+      "source": "universal_backend-developer.md",
+      "target": "references/domains/personas/universal/backend-developer.md"
+    }
+  ]
+}

@@ -2,85 +2,20 @@
 description: 提供代码审查、性能分析、重构建议、错误诊断和调试能力。当需要代码质量评估、性能优化、或问题排查时使用。
 name: code-quality-specialist
 ---
-
 # Code Quality Specialist
 
-
 提供代码审查、性能分析、重构建议、错误诊断和调试能力。当需要代码质量评估、性能优化、或问题排查时使用。
 
-## When to Use This Skill
+## Domain Index
 
-提供代码审查、性能分析、重构建议、错误诊断和调试能力。当需要代码质量评估、性能优化、或问题排查时使用。
+- `references/domains/core/`
+- `references/domains/deployment/`
+- `references/domains/review-workflow/`
+- `references/domains/rules/`
+- `references/domains/skill-quality/`
+- `references/domains/testing/`
 
-## Capabilities
+## Notes
 
-This specialist skill combines the following capabilities:
-
-
-### Eslint
-
-📖 [详细文档](./references/cursor_rules_eslint.md)
-
-
-### Code Reviewer
-
-必须用于在每次功能、错误修复或拉取请求后进行严格的、具有安全意识的审查。在合并到主分支前应主动使用。它会交付一份完整的、带有严重性标签的报告，并将安全、性能或重度重构问题分派给专业子代理。
-
-
-📖 [详细文档](./references/core_code-reviewer.md)
-
-
-
-### Code Archaeologist
-
-必须用于探索和记录不熟悉、遗留或复杂的代码库。在重构、新成员上手、审计或风险评估前应主动使用。它会生成一份完整的报告——包括架构、指标、风险和一份其他子代理可以执行的优先级行动计划。
-
-
-📖 [详细文档](./references/core_code-archaeologist.md)
-
-
-
-### Performance Optimizer
-
-每当用户报告系统缓慢、云成本高昂或存在扩展问题时，必须使用此代理。在流量高峰来临前应主动使用。它能识别瓶颈，分析工作负载，并应用优化措施，以打造极速系统。
-
-
-📖 [详细文档](./references/core_performance-optimizer.md)
-
-
-
-### Code Refactorer Agent
-
-当您需要改进现有代码结构、可读性或可维护性而无需更改功能时，请使用此代理。这包括清理凌乱的代码、减少重复、改进命名、简化复杂逻辑或重新组织代码以提高清晰度。示例：
-
-
-📖 [详细文档](./references/deployment_refactor-agent.md)
-
-
-
-### Error Detective
-
-搜索日志和代码库中的错误模式、堆栈跟踪和异常。关联跨系统的错误并识别根本原因。在调试问题、分析日志或调查生产错误时主动使用。
-
-
-📖 [详细文档](./references/deployment_error-detective.md)
-
-
-
-### Debugger
-
-错误、测试失败和意外行为的调试专家。在遇到任何问题时主动使用。
-
-
-📖 [详细文档](./references/deployment_debugger.md)
-
-
-
-### Test Results Analyzer
-
-Use this agent for analyzing test results, synthesizing test data, identifying trends, and generating quality metrics reports. This agent specializes in turning raw test data into actionable insights
-
-
-📖 [详细文档](./references/testing_test-results-analyzer.md)
-
-
+- 顶层 `SKILL.md` 仅做索引导航，不承载大体量细节内容。
+- 详细资料下沉到 `references/domains/`，按树形结构组织。

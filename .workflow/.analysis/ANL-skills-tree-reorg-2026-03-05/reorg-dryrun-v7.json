@@ -1,0 +1,986 @@
+{
+  "generated_at": "2026-03-05T14:48:47.792280+00:00",
+  "mode": "dry-run",
+  "totals": {
+    "all_operations": 97,
+    "ready_operations": 97,
+    "blocked_operations": 0,
+    "mkdir": 2,
+    "rename_dir": 1,
+    "move_dir": 28,
+    "move_file": 66
+  },
+  "operations": [
+    {
+      "op_type": "mkdir",
+      "source": "",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ai-specialist",
+      "reason": "Ensure top-level expert directory exists: ai-specialist",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "No-op if already exists"
+    },
+    {
+      "op_type": "mkdir",
+      "source": "",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/open-source-project-specialist",
+      "reason": "Ensure top-level expert directory exists: open-source-project-specialist",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "No-op if already exists"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/artifacts-builder",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/frontend-specialist/references/domains/artifact-engineering",
+      "reason": "Frontend artifact engineering domain",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/business-analysis",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/product-specialist/references/domains/business-analysis",
+      "reason": "Product/business analysis domain",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/changelog-generator",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/documentation-specialist/references/domains/changelog-automation",
+      "reason": "Documentation automation domain",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/competitive-ads-extractor",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/marketing-specialist/references/domains/competitive-intelligence",
+      "reason": "Marketing intelligence domain",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/copyright-docs",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/documentation-specialist/references/domains/compliance-copyright",
+      "reason": "Compliance documentation domain",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/document-skills",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/documentation-specialist/references/domains/document-formats",
+      "reason": "Document format knowledge domain",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/domain-name-brainstormer",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/marketing-specialist/references/domains/domain-branding",
+      "reason": "Brand/domain naming domain",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/file-organizer",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/operations-specialist/references/domains/workspace-organization",
+      "reason": "Operational workspace domain",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/gh-bootstrap",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/devops-specialist/references/domains/github-platform/bootstrap",
+      "reason": "GitHub platform bootstrap operations",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/github-specialist",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/devops-specialist/references/domains/github-platform/core",
+      "reason": "GitHub is a platform subdomain, not top-level expert",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/internal-comms",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/documentation-specialist/references/domains/internal-communications",
+      "reason": "Internal communication documents domain",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/issue-manage",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/project-management-specialist/references/domains/issue-lifecycle",
+      "reason": "Issue workflow management domain",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "rename_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/language-framework-specialist",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/framework-specialist",
+      "reason": "User approved rename from language-framework-specialist",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Top-level expert rename"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/lead-research-assistant",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/marketing-specialist/references/domains/lead-research",
+      "reason": "Lead research domain",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/mcp-builder",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ai-specialist/references/domains/mcp-server-engineering/mcp-builder",
+      "reason": "Move MCP skill into AI specialist",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/meeting-insights-analyzer",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/project-management-specialist/references/domains/meeting-intelligence",
+      "reason": "Team/process insight domain",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/project-analyze",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/architecture-specialist/references/domains/project-analysis",
+      "reason": "Architecture/project analysis domain",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/prompt-enhancer",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ai-specialist/references/domains/prompt-engineering/prompt-enhancer",
+      "reason": "User requested prompt-enhancer under AI specialist",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/review-code",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/code-quality-specialist/references/domains/review-workflow",
+      "reason": "Code review workflow domain",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ruoyi-framework",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/open-source-project-specialist/references/projects/ruoyi",
+      "reason": "RuoYi belongs to OSS project specialist category",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/skill-creator",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/operations-specialist/references/domains/skill-lifecycle/creator",
+      "reason": "Skill lifecycle operations domain",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/skill-generator",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/operations-specialist/references/domains/skill-lifecycle/generator",
+      "reason": "Skill lifecycle automation domain",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/skill-tuning",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/code-quality-specialist/references/domains/skill-quality/tuning",
+      "reason": "Skill quality optimization domain",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/software-manual",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/documentation-specialist/references/domains/manual-generation",
+      "reason": "Manual generation domain",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/text-formatter",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/documentation-specialist/references/domains/text-formatting",
+      "reason": "Text formatting domain",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ui-ux-pro-max",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/design-specialist/references/domains/ui-design",
+      "reason": "UI design domain",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ux-research",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/design-specialist/references/domains/ux-research",
+      "reason": "UX research domain",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/vue-best-practices",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/framework-specialist/references/domains/frontend-frameworks/vue",
+      "reason": "Framework best practice domain",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/webapp-testing",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/testing-specialist/references/domains/webapp-testing",
+      "reason": "Web application testing domain",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Merge source directory into specialist domain path"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_actix-web.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/rust/actix-web.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_apollo-client.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/javascript-node/apollo-client.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_apollo-graphql.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/javascript-node/apollo-graphql.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_asp-net.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/dotnet/asp-net.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_bash.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/tooling/cli/bash.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_bottle.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/bottle.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_bun.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/javascript-node/bun.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_c-sharp.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/dotnet/c-sharp.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_databricks.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/platforms/infrastructure/databricks.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_discord-api.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/integrations/external-services/discord-api.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_django-orm.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/django/django-orm.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_django-rest-framework.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/django/django-rest-framework.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_django.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/django/index.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_emacs.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/tooling/cli/emacs.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_express.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/javascript-node/express.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_fastapi.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/fastapi.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_ffmpeg.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/tooling/media/ffmpeg.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_fiber.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/go/fiber.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_flask-restful.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/flask/flask-restful.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_flask.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/flask/index.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_git.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/tooling/cli/git.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_godot.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/runtime-ecosystem/godot.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_graphql.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/javascript-node/graphql.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_insomnia.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/tooling/api-testing/insomnia.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_laravel.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/php/laravel/index.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_microsoft-teams.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/integrations/external-services/microsoft-teams.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_nestjs.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/javascript-node/nestjs.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_nginx.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/platforms/infrastructure/nginx.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_notion-api.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/integrations/external-services/notion-api.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_phoenix.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/runtime-ecosystem/phoenix.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_php.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/runtime-ecosystem/php.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_postman.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/tooling/api-testing/postman.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_pyramid.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/pyramid.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_rocket.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/rust/rocket.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_ros.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/runtime-ecosystem/ros.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_ruby.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/ruby/ruby.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_sanic.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/sanic.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_servemux.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/go/servemux.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_solidity.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/runtime-ecosystem/solidity.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_spring.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/java/spring.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_springboot.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/java/springboot.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_stripe.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/platforms/infrastructure/stripe.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_tornado.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/tornado.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_unity.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/runtime-ecosystem/unity.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_unreal-engine.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/runtime-ecosystem/unreal-engine.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_vim.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/tooling/cli/vim.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_zsh.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/tooling/cli/zsh.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/engineering_backend_backend-architect.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/personas/backend/backend-architect.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/specialized_django_django-api-developer.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/django/django-api-developer.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/specialized_django_django-backend-expert.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/django/django-backend-expert.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/specialized_django_django-orm-expert.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/django/django-orm-expert.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/specialized_laravel_laravel-backend-expert.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/php/laravel/laravel-backend-expert.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/specialized_laravel_laravel-eloquent-expert.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/php/laravel/laravel-eloquent-expert.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/specialized_rails_rails-activerecord-expert.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/ruby/rails/rails-activerecord-expert.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/specialized_rails_rails-api-developer.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/ruby/rails/rails-api-developer.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/specialized_rails_rails-backend-expert.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/ruby/rails/rails-backend-expert.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/universal_backend-developer.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/personas/universal/backend-developer.md",
+      "reason": "Backend references semantic cleanup (remove noisy prefixes)",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "File-level taxonomy normalization"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/engineering_backend_ai-engineer.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ai-specialist/references/domains/ai-application-engineering/ai-engineer.md",
+      "reason": "AI specialist extraction",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Extract AI-specific asset to ai-specialist"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/data-specialist/references/cursor_rules_openai.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ai-specialist/references/domains/model-platforms/openai.md",
+      "reason": "AI specialist extraction",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Extract AI-specific asset to ai-specialist"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/data-specialist/references/cursor_rules_vllm.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ai-specialist/references/domains/model-platforms/vllm.md",
+      "reason": "AI specialist extraction",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Extract AI-specific asset to ai-specialist"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/data-specialist/references/cursor_rules_langchain.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ai-specialist/references/domains/agent-frameworks/langchain.md",
+      "reason": "AI specialist extraction",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Extract AI-specific asset to ai-specialist"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/data-specialist/references/cursor_rules_langchain-js.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ai-specialist/references/domains/agent-frameworks/langchain-js.md",
+      "reason": "AI specialist extraction",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Extract AI-specific asset to ai-specialist"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/data-specialist/references/cursor_rules_llamaindex-js.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ai-specialist/references/domains/agent-frameworks/llamaindex-js.md",
+      "reason": "AI specialist extraction",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Extract AI-specific asset to ai-specialist"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/data-specialist/references/cursor_rules_smolagents.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ai-specialist/references/domains/agent-frameworks/smolagents.md",
+      "reason": "AI specialist extraction",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Extract AI-specific asset to ai-specialist"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/data-specialist/references/cursor_rules_crewai.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ai-specialist/references/domains/agent-frameworks/crewai.md",
+      "reason": "AI specialist extraction",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Extract AI-specific asset to ai-specialist"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/documentation-specialist/references/deployment_prompt-engineer.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ai-specialist/references/domains/prompt-engineering/deployment-prompt-engineer.md",
+      "reason": "AI specialist extraction",
+      "source_exists": true,
+      "target_exists": false,
+      "ready": true,
+      "notes": "Extract AI-specific asset to ai-specialist"
+    }
+  ],
+  "blocked_operations": []
+}

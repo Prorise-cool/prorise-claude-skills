@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-03-05T22:45:00+08:00",
+  "new_expert": "ai-specialist",
+  "rationale": "AI capability currently exists but is fragmented across backend/data/product/documentation modules.",
+  "top_level_reclassification": [
+    {
+      "source": "mcp-builder",
+      "action": "merge",
+      "target": "ai-specialist/references/domains/mcp-server-engineering/mcp-builder"
+    },
+    {
+      "source": "prompt-enhancer",
+      "action": "merge",
+      "target": "ai-specialist/references/domains/prompt-engineering/prompt-enhancer"
+    },
+    {
+      "source": "skill-tuning",
+      "action": "keep",
+      "target": "skill-engineering-specialist",
+      "note": "Can be cross-referenced by ai-specialist, but primary domain is skill lifecycle engineering."
+    }
+  ],
+  "file_level_extraction": [
+    {
+      "source": "backend-specialist/references/engineering_backend_ai-engineer.md",
+      "target": "ai-specialist/references/domains/ai-application-engineering/ai-engineer.md"
+    },
+    {
+      "source": "data-specialist/references/cursor_rules_openai.md",
+      "target": "ai-specialist/references/domains/model-platforms/openai.md"
+    },
+    {
+      "source": "data-specialist/references/cursor_rules_vllm.md",
+      "target": "ai-specialist/references/domains/model-platforms/vllm.md"
+    },
+    {
+      "source": "data-specialist/references/cursor_rules_langchain.md",
+      "target": "ai-specialist/references/domains/agent-frameworks/langchain.md"
+    },
+    {
+      "source": "data-specialist/references/cursor_rules_langchain-js.md",
+      "target": "ai-specialist/references/domains/agent-frameworks/langchain-js.md"
+    },
+    {
+      "source": "data-specialist/references/cursor_rules_llamaindex-js.md",
+      "target": "ai-specialist/references/domains/agent-frameworks/llamaindex-js.md"
+    },
+    {
+      "source": "data-specialist/references/cursor_rules_smolagents.md",
+      "target": "ai-specialist/references/domains/agent-frameworks/smolagents.md"
+    },
+    {
+      "source": "data-specialist/references/cursor_rules_crewai.md",
+      "target": "ai-specialist/references/domains/agent-frameworks/crewai.md"
+    },
+    {
+      "source": "mcp-builder/reference/mcp_best_practices.md",
+      "target": "ai-specialist/references/domains/mcp-server-engineering/mcp_best_practices.md"
+    },
+    {
+      "source": "mcp-builder/reference/python_mcp_server.md",
+      "target": "ai-specialist/references/domains/mcp-server-engineering/python_mcp_server.md"
+    },
+    {
+      "source": "mcp-builder/reference/node_mcp_server.md",
+      "target": "ai-specialist/references/domains/mcp-server-engineering/node_mcp_server.md"
+    },
+    {
+      "source": "mcp-builder/reference/evaluation.md",
+      "target": "ai-specialist/references/domains/mcp-server-engineering/evaluation.md"
+    },
+    {
+      "source": "documentation-specialist/references/deployment_prompt-engineer.md",
+      "target": "ai-specialist/references/domains/prompt-engineering/deployment-prompt-engineer.md"
+    }
+  ]
+}

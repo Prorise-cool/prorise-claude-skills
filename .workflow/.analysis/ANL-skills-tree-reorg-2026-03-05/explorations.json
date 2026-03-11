@@ -1,0 +1,79 @@
+{
+  "session_id": "ANL-skills-tree-reorg-2026-03-05",
+  "timestamp": "2026-03-05T21:52:46+08:00",
+  "topic": "我需要重新整理我的 skill 仓库，按树形结构整理，先扫描 md 顶部 description 建立地图，再基于 SKILL_WRITING_GUIDE.md 进行分层归纳，顶层 SKILL.md 仅做索引，并按流程逐步执行。",
+  "mode": "new",
+  "dimensions": [
+    "architecture",
+    "implementation",
+    "decision"
+  ],
+  "scope": {
+    "skills_root": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills",
+    "single_source_of_truth": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/SKILL_WRITING_GUIDE.md",
+    "non_goals_current_round": [
+      "本轮不执行目录移动",
+      "本轮不修改现有 SKILL.md 内容语义"
+    ]
+  },
+  "sources": [
+    {
+      "type": "spec",
+      "path": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/SKILL_WRITING_GUIDE.md",
+      "summary": "定义 SKILL.md frontmatter 与资源目录规范"
+    },
+    {
+      "type": "existing-script",
+      "path": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/scripts/extract-skills-metadata.js",
+      "summary": "已有顶层元数据提取脚本，可复用其 frontmatter 扫描思路"
+    },
+    {
+      "type": "existing-script",
+      "path": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/scripts/generate-readme.js",
+      "summary": "已有 manifest 驱动索引输出模式"
+    },
+    {
+      "type": "new-script",
+      "path": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/scripts/build_skill_description_map.py",
+      "summary": "本轮新增，递归扫描所有 md 顶部 description 并输出树形地图"
+    },
+    {
+      "type": "artifact",
+      "path": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.workflow/.analysis/ANL-skills-tree-reorg-2026-03-05/description-map.json",
+      "summary": "description 地图 JSON（全量）"
+    },
+    {
+      "type": "artifact",
+      "path": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.workflow/.analysis/ANL-skills-tree-reorg-2026-03-05/description-map.md",
+      "summary": "description 地图 Markdown（可读树）"
+    }
+  ],
+  "metrics": {
+    "top_level_directories": 47,
+    "total_markdown_files": 693,
+    "files_with_description": 432,
+    "files_without_description": 261
+  },
+  "key_findings": [
+    "顶层目录数量较多且扁平，主题聚合度不高。",
+    "存在跨域技能散落在顶层（如 vue 相关技能单独顶层）。",
+    "已有脚本体系可复用，不需要从零构建全部工具链。",
+    "description 建图阶段已具备执行基础，后续可生成迁移映射。"
+  ],
+  "discussion_points": [
+    "确定顶层分类法：专家域是否作为唯一一级目录",
+    "确定索引规则：每一层 SKILL.md 的职责边界",
+    "确定迁移策略：dry-run -> 人工确认 -> 实迁",
+    "确定边界：哪些目录排除在本次重构之外"
+  ],
+  "open_questions": [
+    "非专家型目录（如 ccw 系列）是否纳入本次树形重构？",
+    "缺失 description 的 md 是否需要在迁移前补齐？",
+    "是否允许保留少量顶层例外目录（如 _shared）？"
+  ],
+  "next_actions": [
+    "输出第一个分类草案（仅映射，不改文件）",
+    "与用户进行第 2 轮讨论并确认迁移边界",
+    "实现批量迁移脚本的 dry-run 模式"
+  ]
+}

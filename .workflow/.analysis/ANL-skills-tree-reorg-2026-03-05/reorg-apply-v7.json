@@ -1,0 +1,694 @@
+{
+  "applied_at": "2026-03-05T14:50:53.562788+00:00",
+  "plan_source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.workflow/.analysis/ANL-skills-tree-reorg-2026-03-05/reorg-dryrun-v7.json",
+  "summary": {
+    "planned": 97,
+    "executed": 97,
+    "ok": 97,
+    "skipped": 0,
+    "error": 0
+  },
+  "ok": [
+    {
+      "op_type": "mkdir",
+      "source": "",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ai-specialist",
+      "status": "ok",
+      "message": "Directory ensured"
+    },
+    {
+      "op_type": "mkdir",
+      "source": "",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/open-source-project-specialist",
+      "status": "ok",
+      "message": "Directory ensured"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/artifacts-builder",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/frontend-specialist/references/domains/artifact-engineering",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/business-analysis",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/product-specialist/references/domains/business-analysis",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/changelog-generator",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/documentation-specialist/references/domains/changelog-automation",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/competitive-ads-extractor",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/marketing-specialist/references/domains/competitive-intelligence",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/copyright-docs",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/documentation-specialist/references/domains/compliance-copyright",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/document-skills",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/documentation-specialist/references/domains/document-formats",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/domain-name-brainstormer",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/marketing-specialist/references/domains/domain-branding",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/file-organizer",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/operations-specialist/references/domains/workspace-organization",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/gh-bootstrap",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/devops-specialist/references/domains/github-platform/bootstrap",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/github-specialist",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/devops-specialist/references/domains/github-platform/core",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/internal-comms",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/documentation-specialist/references/domains/internal-communications",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/issue-manage",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/project-management-specialist/references/domains/issue-lifecycle",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "rename_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/language-framework-specialist",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/framework-specialist",
+      "status": "ok",
+      "message": "Directory renamed"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/lead-research-assistant",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/marketing-specialist/references/domains/lead-research",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/mcp-builder",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ai-specialist/references/domains/mcp-server-engineering/mcp-builder",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/meeting-insights-analyzer",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/project-management-specialist/references/domains/meeting-intelligence",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/project-analyze",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/architecture-specialist/references/domains/project-analysis",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/prompt-enhancer",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ai-specialist/references/domains/prompt-engineering/prompt-enhancer",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/review-code",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/code-quality-specialist/references/domains/review-workflow",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ruoyi-framework",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/open-source-project-specialist/references/projects/ruoyi",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/skill-creator",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/operations-specialist/references/domains/skill-lifecycle/creator",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/skill-generator",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/operations-specialist/references/domains/skill-lifecycle/generator",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/skill-tuning",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/code-quality-specialist/references/domains/skill-quality/tuning",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/software-manual",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/documentation-specialist/references/domains/manual-generation",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/text-formatter",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/documentation-specialist/references/domains/text-formatting",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ui-ux-pro-max",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/design-specialist/references/domains/ui-design",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ux-research",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/design-specialist/references/domains/ux-research",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/vue-best-practices",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/framework-specialist/references/domains/frontend-frameworks/vue",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_dir",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/webapp-testing",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/testing-specialist/references/domains/webapp-testing",
+      "status": "ok",
+      "message": "Directory moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_actix-web.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/rust/actix-web.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_apollo-client.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/javascript-node/apollo-client.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_apollo-graphql.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/javascript-node/apollo-graphql.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_asp-net.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/dotnet/asp-net.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_bash.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/tooling/cli/bash.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_bottle.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/bottle.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_bun.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/javascript-node/bun.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_c-sharp.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/dotnet/c-sharp.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_databricks.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/platforms/infrastructure/databricks.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_discord-api.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/integrations/external-services/discord-api.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_django-orm.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/django/django-orm.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_django-rest-framework.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/django/django-rest-framework.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_django.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/django/index.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_emacs.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/tooling/cli/emacs.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_express.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/javascript-node/express.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_fastapi.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/fastapi.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_ffmpeg.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/tooling/media/ffmpeg.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_fiber.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/go/fiber.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_flask-restful.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/flask/flask-restful.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_flask.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/flask/index.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_git.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/tooling/cli/git.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_godot.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/runtime-ecosystem/godot.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_graphql.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/javascript-node/graphql.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_insomnia.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/tooling/api-testing/insomnia.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_laravel.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/php/laravel/index.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_microsoft-teams.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/integrations/external-services/microsoft-teams.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_nestjs.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/javascript-node/nestjs.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_nginx.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/platforms/infrastructure/nginx.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_notion-api.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/integrations/external-services/notion-api.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_phoenix.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/runtime-ecosystem/phoenix.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_php.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/runtime-ecosystem/php.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_postman.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/tooling/api-testing/postman.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_pyramid.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/pyramid.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_rocket.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/rust/rocket.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_ros.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/runtime-ecosystem/ros.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_ruby.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/ruby/ruby.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_sanic.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/sanic.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_servemux.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/go/servemux.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_solidity.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/runtime-ecosystem/solidity.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_spring.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/java/spring.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_springboot.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/java/springboot.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_stripe.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/platforms/infrastructure/stripe.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_tornado.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/tornado.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_unity.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/runtime-ecosystem/unity.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_unreal-engine.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/runtime-ecosystem/unreal-engine.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_vim.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/tooling/cli/vim.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/cursor_rules_zsh.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/tooling/cli/zsh.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/engineering_backend_backend-architect.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/personas/backend/backend-architect.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/specialized_django_django-api-developer.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/django/django-api-developer.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/specialized_django_django-backend-expert.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/django/django-backend-expert.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/specialized_django_django-orm-expert.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/python/django/django-orm-expert.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/specialized_laravel_laravel-backend-expert.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/php/laravel/laravel-backend-expert.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/specialized_laravel_laravel-eloquent-expert.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/php/laravel/laravel-eloquent-expert.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/specialized_rails_rails-activerecord-expert.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/ruby/rails/rails-activerecord-expert.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/specialized_rails_rails-api-developer.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/ruby/rails/rails-api-developer.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/specialized_rails_rails-backend-expert.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/technologies/ruby/rails/rails-backend-expert.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/universal_backend-developer.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/domains/personas/universal/backend-developer.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/backend-specialist/references/engineering_backend_ai-engineer.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ai-specialist/references/domains/ai-application-engineering/ai-engineer.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/data-specialist/references/cursor_rules_openai.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ai-specialist/references/domains/model-platforms/openai.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/data-specialist/references/cursor_rules_vllm.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ai-specialist/references/domains/model-platforms/vllm.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/data-specialist/references/cursor_rules_langchain.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ai-specialist/references/domains/agent-frameworks/langchain.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/data-specialist/references/cursor_rules_langchain-js.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ai-specialist/references/domains/agent-frameworks/langchain-js.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/data-specialist/references/cursor_rules_llamaindex-js.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ai-specialist/references/domains/agent-frameworks/llamaindex-js.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/data-specialist/references/cursor_rules_smolagents.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ai-specialist/references/domains/agent-frameworks/smolagents.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/data-specialist/references/cursor_rules_crewai.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ai-specialist/references/domains/agent-frameworks/crewai.md",
+      "status": "ok",
+      "message": "File moved"
+    },
+    {
+      "op_type": "move_file",
+      "source": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/documentation-specialist/references/deployment_prompt-engineer.md",
+      "target": "/Volumes/DataDisk/Projects/ProriseProjects/prorise-claude-skills/.claude/skills/ai-specialist/references/domains/prompt-engineering/deployment-prompt-engineer.md",
+      "status": "ok",
+      "message": "File moved"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}
