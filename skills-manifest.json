@@ -25,27 +25,6 @@
       "hasCommandJson": false
     },
     {
-      "name": "ccw",
-      "description": "Stateless workflow orchestrator. Auto-selects optimal workflow based on task intent. Triggers \"ccw\", \"workflow\".",
-      "path": ".claude/skills/ccw",
-      "directory": "ccw",
-      "hasCommandJson": true
-    },
-    {
-      "name": "ccw-help",
-      "description": "CCW command help system. Search, browse, recommend commands. Triggers \"ccw-help\", \"ccw-issue\".",
-      "path": ".claude/skills/ccw-help",
-      "directory": "ccw-help",
-      "hasCommandJson": true
-    },
-    {
-      "name": "ccw-loop",
-      "description": "Stateless iterative development loop workflow with documented progress. Supports develop, debug, and validate phases with file-based state tracking. Triggers on \"ccw-loop\", \"dev loop\", \"development loop\", \"开发循环\", \"迭代开发\".",
-      "path": ".claude/skills/ccw-loop",
-      "directory": "ccw-loop",
-      "hasCommandJson": false
-    },
-    {
       "name": "code-quality-specialist",
       "description": "提供代码审查、性能分析、重构建议、错误诊断和调试能力。当需要代码质量评估、性能优化、或问题排查时使用。",
       "path": ".claude/skills/code-quality-specialist",

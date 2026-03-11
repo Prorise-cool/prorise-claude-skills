@@ -17,9 +17,6 @@
 | [ai-specialist](.claude/skills/ai-specialist) | 提供 AI 应用开发、MCP 服务器工程、提示词工程与智能体框架集成能力。当需要构建或优化基于大模型的功能、工作流或平台集成时使用。 |
 | [architecture-specialist](.claude/skills/architecture-specialist) | 提供系统架构设计、技术选型、架构审查和组件设计能力。当需要设计新系统、重构现有架构或进行架构审查时使用。 |
 | [backend-specialist](.claude/skills/backend-specialist) | 提供后端开发、API 设计、数据库交互和框架特定开发能力。当需要实现后端功能、设计 API 或处理数据层逻辑时使用。 |
-| [ccw](.claude/skills/ccw) | Stateless workflow orchestrator. Auto-selects optimal workflow based on task ... |
-| [ccw-help](.claude/skills/ccw-help) | CCW command help system. Search, browse, recommend commands. Triggers "ccw-he... |
-| [ccw-loop](.claude/skills/ccw-loop) | Stateless iterative development loop workflow with documented progress. Suppo... |
 | [code-quality-specialist](.claude/skills/code-quality-specialist) | 提供代码审查、性能分析、重构建议、错误诊断和调试能力。当需要代码质量评估、性能优化、或问题排查时使用。 |
 | [data-specialist](.claude/skills/data-specialist) | 提供数据库设计、优化、数据工程和数据分析能力。当需要处理数据库操作、数据管道或数据分析时使用。 |
 | [design-specialist](.claude/skills/design-specialist) | 提供 UI/UX 设计、用户研究、视觉设计和品牌一致性能力。当需要设计界面、进行用户研究或创建视觉资产时使用。 |
@@ -55,14 +52,14 @@ git remote add origin https://github.com/prorise/prorise-claude-skills.git
 # 2. 启用 sparse-checkout
 git config core.sparseCheckout true
 
-# 3. 指定要下载的 skill（例如 changelog-generator）
-echo ".claude/skills/changelog-generator" >> .git/info/sparse-checkout
+# 3. 指定要下载的 skill（例如 ai-specialist）
+echo ".claude/skills/ai-specialist" >> .git/info/sparse-checkout
 
 # 4. 拉取
 git pull origin main
 
 # 5. 复制到 Claude 配置目录
-cp -r .claude/skills/changelog-generator ~/.claude/skills/
+cp -r .claude/skills/ai-specialist ~/.claude/skills/
 ```
 
 ### 下载多个 Skills
@@ -70,9 +67,9 @@ cp -r .claude/skills/changelog-generator ~/.claude/skills/
 ```bash
 # 在 sparse-checkout 文件中添加多个路径
 cat >> .git/info/sparse-checkout << EOF
-.claude/skills/changelog-generator
-.claude/skills/code-quality-specialist
-.claude/skills/testing-specialist
+.claude/skills/ai-specialist
+.claude/skills/architecture-specialist
+.claude/skills/backend-specialist
 EOF
 
 git pull origin main
@@ -110,5 +107,10 @@ MIT License
 
 ---
 
+<<<<<<< HEAD
 *最后更新: 2026-03-11T02:05:54.284Z*
 *Skills 数量: 20*
+=======
+*最后更新: 2026-03-11T07:23:40.385Z*
+*Skills 数量: 17*
+>>>>>>> 617e07c (chore: 更新提交)

@@ -1,1 +1,13 @@
 .ace-tool/
+.serena/
+.workflow/
+.DS_Store
+.claude/commands/cli/
+.claude/commands/issue/
+.claude/commands/memory/
+.claude/commands/task/
+.claude/commands/workflow/
+.claude/agents/ccw/
+.claude/skills/ccw/
+.claude/skills/ccw-help/
+.claude/skills/ccw-loop/

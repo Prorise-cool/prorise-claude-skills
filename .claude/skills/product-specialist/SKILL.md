@@ -12,6 +12,7 @@ name: product-specialist
 - `references/domains/deployment/`
 - `references/domains/marketing/`
 - `references/domains/misc/`
+- `references/domains/product-management/` - PM Skills from Product-Manager-Skills (46 skills)
 
 ## Notes
 

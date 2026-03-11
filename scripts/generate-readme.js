@@ -9,9 +9,12 @@ const path = require('path');
 
 const MANIFEST_FILE = path.join(__dirname, '..', 'skills-manifest.json');
 const README_FILE = path.join(__dirname, '..', 'README.md');
-const CHANGELOG_FILE = path.join(__dirname, '..', 'CHANGELOG.md');
-
 function generateReadme(manifest) {
+  const exampleSkill = manifest.skills[0]?.directory || 'architecture-specialist';
+  const exampleSkillSet = manifest.skills
+    .slice(0, 3)
+    .map(skill => `.claude/skills/${skill.directory}`)
+    .join('\n');
   const skillsTable = manifest.skills.map(skill => {
     const desc = skill.description.length > 80 
       ? skill.description.substring(0, 77) + '...' 
@@ -27,7 +30,7 @@ function generateReadme(manifest) {
 
 ## 特性
 
-- **${manifest.count}+ Skills** - 涵盖开发、设计、运维、营销等多个领域
+- **${manifest.count} Skills** - 涵盖开发、设计、运维、营销等多个领域
 - **自动更新** - 仓库更新时自动生成 changelog 和更新文档
 - **按需下载** - 使用 sparse-checkout 只下载需要的 skill
 
@@ -57,14 +60,14 @@ git remote add origin https://github.com/prorise/prorise-claude-skills.git
 # 2. 启用 sparse-checkout
 git config core.sparseCheckout true
 
-# 3. 指定要下载的 skill（例如 changelog-generator）
-echo ".claude/skills/changelog-generator" >> .git/info/sparse-checkout
+# 3. 指定要下载的 skill（例如 ${exampleSkill}）
+echo ".claude/skills/${exampleSkill}" >> .git/info/sparse-checkout
 
 # 4. 拉取
 git pull origin main
 
 # 5. 复制到 Claude 配置目录
-cp -r .claude/skills/changelog-generator ~/.claude/skills/
+cp -r .claude/skills/${exampleSkill} ~/.claude/skills/
 \`\`\`
 
 ### 下载多个 Skills
@@ -72,9 +75,7 @@ cp -r .claude/skills/changelog-generator ~/.claude/skills/
 \`\`\`bash
 # 在 sparse-checkout 文件中添加多个路径
 cat >> .git/info/sparse-checkout << EOF
-.claude/skills/changelog-generator
-.claude/skills/code-quality-specialist
-.claude/skills/testing-specialist
+${exampleSkillSet}
 EOF
 
 git pull origin main
