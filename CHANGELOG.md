@@ -4,6 +4,23 @@
 
 ### Added
 
+- **product-specialist**: 提供产品规划、需求分析、市场研究和业务分析能力。当需要进行产品决策、需求分析或市场研究时使用。
+
+### Updated
+
+- **product-specialist**: Updated
+
+### Removed
+
+- **.DS_Store**: Removed
+- **ccw-help**: Removed
+- **ccw-loop**: Removed
+- **ccw**: Removed
+
+## [2026-03-11]
+
+### Added
+
 - **.DS_Store**: New skill added
 - **ai-specialist**: 提供 AI 应用开发、MCP 服务器工程、提示词工程与智能体框架集成能力。当需要构建或优化基于大模型的功能、工作流或平台集成时使用。
 - **framework-specialist**: '提供特定编程语言和框架的深度专业知识。当需要处理特定技术栈的复杂问题时使用'
