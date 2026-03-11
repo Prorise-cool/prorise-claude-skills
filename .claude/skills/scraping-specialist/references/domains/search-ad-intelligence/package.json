@@ -1,0 +1,13 @@
+{
+  "name": "google-serp-ad-intelligence",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Google Ads SERP scraper helper",
+  "main": "scripts/scrape-ads-playwright.cjs",
+  "scripts": {
+    "start": "node scripts/scrape-ads-playwright.cjs"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  }
+}

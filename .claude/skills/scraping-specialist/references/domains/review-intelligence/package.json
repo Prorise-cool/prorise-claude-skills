@@ -1,0 +1,15 @@
+{
+  "name": "trustpilot-review-intelligence",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Trustpilot review scraping and analysis helper",
+  "main": "scripts/tpscraper.js",
+  "scripts": {
+    "start": "node scripts/tpscraper.js"
+  },
+  "dependencies": {
+    "puppeteer": "^24.7.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}

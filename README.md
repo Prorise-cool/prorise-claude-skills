@@ -6,7 +6,7 @@
 
 ## 特性
 
-- **17 Skills** - 涵盖开发、设计、运维、营销等多个领域
+- **18 Skills** - 涵盖开发、设计、运维、营销等多个领域
 - **自动更新** - 仓库更新时自动生成 changelog 和更新文档
 - **按需下载** - 使用 sparse-checkout 只下载需要的 skill
 
@@ -29,6 +29,7 @@
 | [operations-specialist](.claude/skills/operations-specialist) | 提供运营分析、财务跟踪、基础设施维护和客户支持能力。当需要处理运营任务、生成报告或维护系统时使用。 |
 | [product-specialist](.claude/skills/product-specialist) | 提供产品规划、需求分析、市场研究和业务分析能力。当需要进行产品决策、需求分析或市场研究时使用。 |
 | [project-management-specialist](.claude/skills/project-management-specialist) | 提供项目管理、任务跟踪、团队协调和项目交付能力。当需要管理项目、跟踪进度或协调团队时使用。 |
+| [scraping-specialist](.claude/skills/scraping-specialist) | 提供网站抓取、结构化数据提取、浏览器自动化、站点映射、搜索广告情报、社媒内容采集、评论分析与垂直站点采集能力。当任务涉及 scrape、crawl、ext... |
 | [security-specialist](.claude/skills/security-specialist) | 提供安全审计、风险评估和合规检查能力。当需要进行安全审查、风险评估或合规验证时使用。 |
 | [testing-specialist](.claude/skills/testing-specialist) | 提供测试策略、测试编写、测试执行和测试结果分析能力。当需要编写测试、修复测试或优化测试流程时使用。 |
 
@@ -107,5 +108,5 @@ MIT License
 
 ---
 
-*最后更新: 2026-03-11T08:36:54.774Z*
-*Skills 数量: 17*
+*最后更新: 2026-03-11T09:18:18.043Z*
+*Skills 数量: 18*

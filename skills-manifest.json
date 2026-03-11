@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "generated": "2026-03-11T08:36:54.774Z",
-  "count": 17,
+  "generated": "2026-03-11T09:18:18.043Z",
+  "count": 18,
   "skills": [
     {
       "name": "ai-specialist",
@@ -106,6 +106,13 @@
       "description": "提供项目管理、任务跟踪、团队协调和项目交付能力。当需要管理项目、跟踪进度或协调团队时使用。",
       "path": ".claude/skills/project-management-specialist",
       "directory": "project-management-specialist",
+      "hasCommandJson": false
+    },
+    {
+      "name": "scraping-specialist",
+      "description": "提供网站抓取、结构化数据提取、浏览器自动化、站点映射、搜索广告情报、社媒内容采集、评论分析与垂直站点采集能力。当任务涉及 scrape、crawl、extract、抓取网页、批量采集、Firecrawl、Playwright、Google Ads SERP、Facebook Ad Library、X/Twitter、Trustpilot 或求职平台数据采集时使用。",
+      "path": ".claude/skills/scraping-specialist",
+      "directory": "scraping-specialist",
       "hasCommandJson": false
     },
     {
