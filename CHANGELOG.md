@@ -1,5 +1,36 @@
 # Changelog
 
+## [2026-03-11]
+
+### Added
+
+- **.DS_Store**: New skill added
+- **ai-specialist**: 提供 AI 应用开发、MCP 服务器工程、提示词工程与智能体框架集成能力。当需要构建或优化基于大模型的功能、工作流或平台集成时使用。
+- **framework-specialist**: '提供特定编程语言和框架的深度专业知识。当需要处理特定技术栈的复杂问题时使用'
+- **open-source-project-specialist**: 提供开源项目专属技能的组织与索引能力。当任务依赖特定第三方开源项目的深度实践、约定或扩展模式时使用。
+
+### Updated
+
+- **SKILL_WRITING_GUIDE.md**: Updated
+- **architecture-specialist**: Updated
+- **backend-specialist**: Updated
+- **code-quality-specialist**: Updated
+- **data-specialist**: Updated
+- **design-specialist**: Updated
+- **devops-specialist**: Updated
+- **documentation-specialist**: Updated
+- **frontend-specialist**: Updated
+- **marketing-specialist**: Updated
+- **operations-specialist**: Updated
+- **product-specialist**: Updated
+- **project-management-specialist**: Updated
+- **security-specialist**: Updated
+- **testing-specialist**: Updated
+
+### Removed
+
+- **language-framework-specialist**: Removed
+
 ## [2026-01-24]
 
 ### Removed
