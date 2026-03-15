@@ -1,0 +1,16 @@
+[project]
+name = "ida-domain-scripting"
+version = "1.0.0"
+description = "IDA Domain scripting skill for Codex CLI"
+readme = "SKILL.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [
+    { name = "Hex-Rays SA", email = "support@hex-rays.com" }
+]
+keywords = ["ida-pro", "reverse-engineering", "binary-analysis", "ida-domain"]
+
+dependencies = []
+
+[dependency-groups]
+dev = []

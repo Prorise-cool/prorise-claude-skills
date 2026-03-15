@@ -2,6 +2,23 @@
 name: trustpilot-review-intelligence
 description: 当需要抓取 Trustpilot 评论、分析评分分布、提炼正负面主题、生成竞品口碑洞察或为广告与转化文案提供评论情报时使用。适用于“抓某品牌 Trustpilot 评论”“分析差评主题”“导出评论 CSV/JSON”“做口碑竞品研究”等场景，脚本位于 `scripts/tpscraper.js`。
 ---
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/scraping-specialist/references/domains/review-intelligence/`
+
+```
+review-intelligence/
+├── scripts/
+│   └── tpscraper.js
+├── package.json
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # Trustpilot 评论情报采集
 
 此技能用于从 Trustpilot 抓取品牌评论，并将评论转化为可行动的口碑情报。

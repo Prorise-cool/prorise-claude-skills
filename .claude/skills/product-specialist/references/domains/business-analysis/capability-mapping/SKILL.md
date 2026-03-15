@@ -4,6 +4,21 @@ description: Business capability modeling using BABOK Business Capability Analys
 allowed-tools: Read, Glob, Grep, Task, Skill
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/product-specialist/references/domains/business-analysis/capability-mapping/`
+
+```
+capability-mapping/
+├── references/
+│   └── capability-hierarchy.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # Business Capability Mapping
 
 Create hierarchical business capability models that bridge strategy and architecture. Based on BABOK v3 Business Capability Analysis (10.6).

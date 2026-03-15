@@ -14,6 +14,22 @@ scenarios:
   - "Create a low-cost validation probe before we build this feature"
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/product-specialist/references/domains/product-management/pol-probe/`
+
+```
+pol-probe/
+├── examples/
+│   └── sample.md
+├── SKILL.md
+└── template.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 ## Purpose
 
 Define and document a **Proof of Life (PoL) probe**—a lightweight, disposable validation artifact designed to surface harsh truths before expensive development. Use this when you need to eliminate a specific risk or test a narrow hypothesis **without building production-quality software**. PoL probes are reconnaissance missions, not MVPs—they're meant to be deleted, not scaled.

@@ -4,6 +4,28 @@ description: Provides guidance for installing, configuring, and choosing Git gra
 allowed-tools: Read, Bash, Glob, Grep
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/devops-specialist/references/domains/github-platform/core/gui-tools/`
+
+```
+gui-tools/
+├── references/
+│   ├── built-in-tools.md
+│   ├── choosing-right-tool.md
+│   ├── configuration.md
+│   ├── linux-installation.md
+│   ├── macos-installation.md
+│   ├── tool-comparison.md
+│   ├── troubleshooting.md
+│   └── windows-installation.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # Git GUI Tools
 
 Optional graphical user interface tools for Git. These tools provide visual interfaces for Git operations, making it easier to stage changes, review diffs, manage branches, and visualize repository history.

@@ -4,6 +4,36 @@ description: Central authority on git hook implementations, modern best practice
 allowed-tools: Read, Bash, Glob, Grep
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/devops-specialist/references/domains/github-platform/core/git-hooks/`
+
+```
+git-hooks/
+├── examples/
+│   ├── commitlint.config.js
+│   ├── husky-javascript-package.json
+│   ├── husky-net-dotnet-format.json
+│   ├── lefthook-dotnet.yml
+│   ├── lefthook-polyglot.yml
+│   ├── pre-commit-python.yaml
+│   └── README.md
+├── references/
+│   ├── conventional-commits.md
+│   ├── framework-comparison.md
+│   ├── performance-optimization.md
+│   ├── README.md
+│   ├── secret-scanning.md
+│   ├── setup-workflows.md
+│   ├── testing-strategies.md
+│   └── troubleshooting.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # Git Hooks
 
 ## Overview

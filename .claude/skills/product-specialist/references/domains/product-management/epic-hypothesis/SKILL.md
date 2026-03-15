@@ -6,6 +6,21 @@ intent: >-
 type: component
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/product-specialist/references/domains/product-management/epic-hypothesis/`
+
+```
+epic-hypothesis/
+├── examples/
+│   └── sample.md
+├── SKILL.md
+└── template.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
 
 ## Purpose
 Frame epics as testable hypotheses using an if/then structure that articulates the action or solution, the target beneficiary, the expected outcome, and how you'll validate success. Use this to manage uncertainty in product development by making assumptions explicit, defining lightweight experiments ("tiny acts of discovery"), and establishing measurable success criteria before committing to full build-out.

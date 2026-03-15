@@ -6,6 +6,19 @@ intent: >-
 type: interactive
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/product-specialist/references/domains/product-management/user-story-mapping-workshop/`
+
+```
+user-story-mapping-workshop/
+├── SKILL.md
+└── template.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
 
 ## Purpose
 Guide product managers through creating a user story map by asking adaptive questions about the system, users, workflow, and priorities—then generating a two-dimensional map with backbone (activities), user tasks, and release slices. Use this to move from flat backlogs to visual story maps that communicate the big picture, identify missing functionality, and enable meaningful release planning—avoiding "context-free mulch" where stories lose connection to the overall system narrative.

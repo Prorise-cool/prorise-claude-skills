@@ -4,6 +4,25 @@ description: 一套资源，帮助我使用公司喜欢的格式编写各种内�
 license: Complete terms in LICENSE.txt
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/documentation-specialist/references/domains/internal-communications/`
+
+```
+internal-communications/
+├── examples/
+│   ├── 3p-updates.md
+│   ├── company-newsletter.md
+│   ├── faq-answers.md
+│   └── general-comms.md
+├── LICENSE.txt
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 ## When to use this skill
 要编写内部通信，请将此技能用于：
 - 3P 更新（Progress、Plans、Problems）

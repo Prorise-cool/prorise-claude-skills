@@ -15,6 +15,21 @@ scenarios:
 estimated_time: "60-120 min"
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/product-specialist/references/domains/product-management/prd-development/`
+
+```
+prd-development/
+├── examples/
+│   └── sample.md
+├── SKILL.md
+└── template.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
 
 ## Purpose
 Guide product managers through structured PRD (Product Requirements Document) creation by orchestrating problem framing, user research synthesis, solution definition, and success criteria into a cohesive document. Use this to move from scattered notes and Slack threads to a clear, comprehensive PRD that aligns stakeholders, provides engineering context, and serves as a source of truth—avoiding ambiguity, scope creep, and the "build what's in my head" trap.

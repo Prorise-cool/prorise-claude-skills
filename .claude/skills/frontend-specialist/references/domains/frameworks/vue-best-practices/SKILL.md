@@ -7,6 +7,37 @@ metadata:
   version: "8.0.0"
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/frontend-specialist/references/domains/frameworks/vue-best-practices/`
+
+```
+vue-best-practices/
+├── rules/
+│   ├── codeactions-save-performance.md
+│   ├── data-attributes-config.md
+│   ├── deep-watch-numeric.md
+│   ├── define-model-update-event.md
+│   ├── duplicate-plugin-detection.md
+│   ├── extract-component-props.md
+│   ├── fallthrough-attributes.md
+│   ├── hmr-vue-ssr.md
+│   ├── module-resolution-bundler.md
+│   ├── pinia-store-mocking.md
+│   ├── script-setup-jsdoc.md
+│   ├── strict-css-modules.md
+│   ├── volar-3-breaking-changes.md
+│   ├── vue-directive-comments.md
+│   ├── vue-router-typed-params.md
+│   ├── vue-tsc-strict-templates.md
+│   └── with-defaults-union-types.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 ## Capability Rules
 
 | Rule | Keywords | Description |

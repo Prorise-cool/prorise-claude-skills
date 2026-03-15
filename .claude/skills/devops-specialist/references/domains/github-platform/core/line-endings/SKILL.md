@@ -4,6 +4,32 @@ description: Comprehensive guide to Git line ending configuration for cross-plat
 allowed-tools: Read, Bash, Glob, Grep
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/devops-specialist/references/domains/github-platform/core/line-endings/`
+
+```
+line-endings/
+├── references/
+│   ├── best-practices.md
+│   ├── commands-reference.md
+│   ├── configuration-approaches.md
+│   ├── configuration-mechanics.md
+│   ├── decision-tree.md
+│   ├── evaluations.md
+│   ├── git-lfs.md
+│   ├── gitattributes-guide.md
+│   ├── platform-specific.md
+│   ├── real-world-examples.md
+│   ├── troubleshooting.md
+│   └── workflows-scenarios.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # Git Line Endings
 
 Comprehensive guide to Git line ending configuration for cross-platform development teams.

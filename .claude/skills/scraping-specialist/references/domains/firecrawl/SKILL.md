@@ -2,6 +2,22 @@
 name: firecrawl-web-extraction
 description: 当需要使用 Firecrawl 完成网页搜索、单页抓取、结构化提取、截图、URL 映射、整站 crawl 或 JavaScript 渲染页面内容提取时使用。适用于“搜索并抓网页内容”“提取某个 URL 的主体内容”“把网页字段按 schema 抽出来”“批量抓文档站”以及需要 Firecrawl CLI 的场景。
 ---
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/scraping-specialist/references/domains/firecrawl/`
+
+```
+firecrawl/
+├── references/
+│   └── command-cheatsheet.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # Firecrawl 网页抓取与映射
 
 此技能用于已经明确要走 Firecrawl 的场景。Firecrawl 适合把网页内容变成适合模型处理的 Markdown、结构化 JSON 或整站抓取结果。

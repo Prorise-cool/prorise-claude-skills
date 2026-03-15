@@ -4,6 +4,39 @@ description: Meta-skill for creating new Claude Code skills with configurable ex
 allowed-tools: Task, AskUserQuestion, Read, Bash, Glob, Grep, Write
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/operations-specialist/references/domains/skill-lifecycle/generator/`
+
+```
+generator/
+├── phases/
+│   ├── 01-requirements-discovery.md
+│   ├── 02-structure-generation.md
+│   ├── 03-phase-generation.md
+│   ├── 04-specs-templates.md
+│   └── 05-validation.md
+├── specs/
+│   ├── cli-integration.md
+│   ├── execution-modes.md
+│   ├── scripting-integration.md
+│   └── skill-requirements.md
+├── templates/
+│   ├── autonomous-action.md
+│   ├── autonomous-orchestrator.md
+│   ├── code-analysis-action.md
+│   ├── llm-action.md
+│   ├── script-bash.md
+│   ├── script-python.md
+│   ├── sequential-phase.md
+│   └── skill-md.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # Skill Generator
 
 Meta-skill for creating new Claude Code skills with configurable execution modes.

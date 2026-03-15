@@ -4,6 +4,23 @@ description: 一套用于使用现代前端 Web 技术（React、Tailwind CSS、
 license: Complete terms in LICENSE.txt
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/frontend-specialist/references/domains/artifact-engineering/`
+
+```
+artifact-engineering/
+├── scripts/
+│   ├── bundle-artifact.sh
+│   ├── init-artifact.sh
+│   └── shadcn-components.tar.gz
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # Artifacts Builder
 
 要构建强大的前端 claude.ai 工件，请按照以下步骤操作：

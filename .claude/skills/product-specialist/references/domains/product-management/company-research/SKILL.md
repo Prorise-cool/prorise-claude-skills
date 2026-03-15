@@ -6,6 +6,21 @@ intent: >-
 type: component
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/product-specialist/references/domains/product-management/company-research/`
+
+```
+company-research/
+├── examples/
+│   └── sample.md
+├── SKILL.md
+└── template.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
 
 ## Purpose
 Create a comprehensive company profile that extracts executive insights, product strategy, transformation initiatives, and organizational dynamics from publicly available sources. Use this to understand competitive landscape, evaluate partnership opportunities, benchmark best practices, prepare for interviews, or inform market entry decisions by understanding how successful companies think about product management and strategy.

@@ -2,6 +2,23 @@
 name: google-serp-ad-intelligence
 description: 当需要抓取 Google 搜索广告、分析竞品广告文案、按关键词和地域观察 Google Ads SERP、做 PPC 竞品情报或零 API 成本的广告页采集时使用。适用于“抓某地区这些关键词的广告”“分析竞品广告怎么写”“查看 Google Ads 版位和附加信息”等场景，执行脚本位于 `scripts/scrape-ads-playwright.cjs`。
 ---
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/scraping-specialist/references/domains/search-ad-intelligence/`
+
+```
+search-ad-intelligence/
+├── scripts/
+│   └── scrape-ads-playwright.cjs
+├── package.json
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # Google SERP 广告情报采集
 
 此技能用于抓取真实搜索结果中的 Google Ads，并生成可用于 PPC 竞品分析的结构化输出。

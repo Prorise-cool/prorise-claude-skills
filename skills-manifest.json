@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated": "2026-03-11T09:24:03.294Z",
+  "generated": "2026-03-11T09:52:52.255Z",
   "count": 18,
   "skills": [
     {
@@ -110,7 +110,7 @@
     },
     {
       "name": "scraping-specialist",
-      "description": "提供网站抓取、结构化数据提取、浏览器自动化、站点映射、搜索广告情报、社媒内容采集、评论分析与垂直站点采集能力。当任务涉及 scrape、crawl、extract、抓取网页、批量采集、Firecrawl、Playwright、Google Ads SERP、Facebook Ad Library、X/Twitter、Trustpilot 或求职平台数据采集时使用。",
+      "description": "提供网站抓取、结构化数据提取、浏览器自动化、站点映射、搜索广告情报、社媒内容采集、评论分析与垂直站点采集能力。当任务涉及 scrape、crawl、extract、抓取网页、批量采集、Firecrawl、Playwright、Scrapling、Crawl4AI、Google Ads SERP、Facebook Ad Library、X/Twitter、Trustpilot 或求职平台数据采集时使用。",
       "path": ".claude/skills/scraping-specialist",
       "directory": "scraping-specialist",
       "hasCommandJson": false

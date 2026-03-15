@@ -4,6 +4,48 @@ description: Universal skill diagnosis and optimization tool. Detect and fix ski
 allowed-tools: Task, AskUserQuestion, Read, Write, Bash, Glob, Grep, mcp__ace-tool__search_context
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/code-quality-specialist/references/domains/skill-quality/tuning/`
+
+```
+tuning/
+├── phases/
+│   ├── actions/
+│   │   ├── action-abort.md
+│   │   ├── action-analyze-requirements.md
+│   │   ├── action-apply-fix.md
+│   │   ├── action-complete.md
+│   │   ├── action-diagnose-agent.md
+│   │   ├── action-diagnose-context.md
+│   │   ├── action-diagnose-dataflow.md
+│   │   ├── action-diagnose-docs.md
+│   │   ├── action-diagnose-memory.md
+│   │   ├── action-diagnose-token-consumption.md
+│   │   ├── action-gemini-analysis.md
+│   │   ├── action-generate-report.md
+│   │   ├── action-init.md
+│   │   ├── action-propose-fixes.md
+│   │   └── action-verify.md
+│   ├── orchestrator.md
+│   └── state-schema.md
+├── specs/
+│   ├── category-mappings.json
+│   ├── dimension-mapping.md
+│   ├── problem-taxonomy.md
+│   ├── quality-gates.md
+│   ├── skill-authoring-principles.md
+│   └── tuning-strategies.md
+├── templates/
+│   ├── diagnosis-report.md
+│   └── fix-proposal.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # Skill Tuning
 
 Universal skill diagnosis and optimization tool that identifies and resolves skill execution problems through iterative multi-agent analysis.

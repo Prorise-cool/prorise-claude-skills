@@ -4,6 +4,30 @@ description: Transform and optimize text content with intelligent formatting. Ou
 allowed-tools: Task, AskUserQuestion, Read, Write, Bash, Glob
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/documentation-specialist/references/domains/text-formatting/`
+
+```
+text-formatting/
+├── phases/
+│   ├── 01-input-collection.md
+│   ├── 02-content-analysis.md
+│   ├── 03-format-transform.md
+│   └── 04-output-preview.md
+├── specs/
+│   ├── callout-types.md
+│   ├── element-mapping.md
+│   └── format-rules.md
+├── templates/
+│   └── bbcode-template.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # Text Formatter
 
 Transform and optimize text content with intelligent structure analysis. Output format: **BBCode + Markdown hybrid** optimized for forum publishing.

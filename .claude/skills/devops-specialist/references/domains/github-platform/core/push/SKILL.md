@@ -4,6 +4,27 @@ description: Comprehensive Git push operations including basic push, force push 
 allowed-tools: Read, Bash, Glob, Grep
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/devops-specialist/references/domains/github-platform/core/push/`
+
+```
+push/
+├── references/
+│   ├── best-practices.md
+│   ├── force-push-safety.md
+│   ├── push-configuration.md
+│   ├── remote-management.md
+│   ├── tag-pushing.md
+│   ├── troubleshooting.md
+│   └── workflows.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # Git Push
 
 Comprehensive guidance for Git push operations, from basic pushes to force push safety protocols and remote management.

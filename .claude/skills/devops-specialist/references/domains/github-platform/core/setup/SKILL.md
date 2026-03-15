@@ -4,6 +4,31 @@ description: Complete guide to installing Git and performing basic configuration
 allowed-tools: Read, Bash, Glob, Grep
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/devops-specialist/references/domains/github-platform/core/setup/`
+
+```
+setup/
+├── references/
+│   ├── alias-definitions.sh
+│   ├── bashrc-claude.sh
+│   ├── configuration-details.md
+│   ├── git-bash-history-troubleshooting.md
+│   ├── install-linux.md
+│   ├── install-macos.md
+│   ├── install-windows.md
+│   ├── install-wsl.md
+│   └── testing-evaluations.md
+├── scripts/
+│   └── bash-aliases.sh
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # Git Setup
 
 Complete guidance for installing Git and performing essential initial configuration across Windows, macOS, Linux, and WSL environments.

@@ -2,6 +2,22 @@
 name: taiwan-job-platform-scraper
 description: 当需要抓取台湾求职平台的职位列表、跨站汇总 104、CakeResume、Yourator 的岗位信息，或按关键词和地点整理职位样本时使用。适用于“搜前端工程师职位”“整理台湾招聘市场样本”“对比多个求职平台结果”等场景。
 ---
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/scraping-specialist/references/domains/job-platforms/`
+
+```
+job-platforms/
+├── references/
+│   └── platforms-and-output.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # 台湾求职平台职位采集
 
 此技能用于跨多个台湾求职平台抓取职位列表，并将结果整理成统一结构。

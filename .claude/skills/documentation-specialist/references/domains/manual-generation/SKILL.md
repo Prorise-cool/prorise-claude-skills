@@ -4,6 +4,47 @@ description: Generate interactive TiddlyWiki-style HTML software manuals with sc
 allowed-tools: Task, AskUserQuestion, Read, Bash, Glob, Grep, Write, mcp__chrome__*
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/documentation-specialist/references/domains/manual-generation/`
+
+```
+manual-generation/
+├── phases/
+│   ├── 01-requirements-discovery.md
+│   ├── 02-project-exploration.md
+│   ├── 02.5-api-extraction.md
+│   ├── 03-parallel-analysis.md
+│   ├── 03.5-consolidation.md
+│   ├── 04-screenshot-capture.md
+│   ├── 05-html-assembly.md
+│   └── 06-iterative-refinement.md
+├── scripts/
+│   ├── api-extractor.md
+│   ├── assemble_docsify.py
+│   ├── bundle-libraries.md
+│   ├── extract_apis.py
+│   ├── screenshot-helper.md
+│   ├── swagger-runner.md
+│   └── typedoc-runner.md
+├── specs/
+│   ├── html-template.md
+│   ├── quality-standards.md
+│   └── writing-style.md
+├── templates/
+│   ├── css/
+│   │   ├── docsify-base.css
+│   │   ├── wiki-base.css
+│   │   └── wiki-dark.css
+│   ├── docsify-shell.html
+│   └── tiddlywiki-shell.html
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # Software Manual Skill
 
 Generate comprehensive, interactive software manuals in TiddlyWiki-style single-file HTML format.

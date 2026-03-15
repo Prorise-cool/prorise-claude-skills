@@ -4,6 +4,21 @@ description: "全面的电子表格创建、编辑和分析，支持公式、格
 license: Proprietary. LICENSE.txt has complete terms
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/documentation-specialist/references/domains/document-formats/xlsx/`
+
+```
+xlsx/
+├── LICENSE.txt
+├── recalc.py
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # Requirements for Outputs
 
 ## All Excel files

@@ -3,6 +3,44 @@ name: ui-ux-pro-max
 description: "UI/UX 设计智能，在设计页面时必须使用"
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/design-specialist/references/domains/ui-design/`
+
+```
+ui-design/
+├── data/
+│   ├── stacks/
+│   │   ├── flutter.csv
+│   │   ├── html-tailwind.csv
+│   │   ├── nextjs.csv
+│   │   ├── nuxt-ui.csv
+│   │   ├── nuxtjs.csv
+│   │   ├── react-native.csv
+│   │   ├── react.csv
+│   │   ├── shadcn.csv
+│   │   ├── svelte.csv
+│   │   ├── swiftui.csv
+│   │   └── vue.csv
+│   ├── charts.csv
+│   ├── colors.csv
+│   ├── icons.csv
+│   ├── landing.csv
+│   ├── products.csv
+│   ├── prompts.csv
+│   ├── styles.csv
+│   ├── typography.csv
+│   └── ux-guidelines.csv
+├── scripts/
+│   ├── core.py
+│   └── search.py
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # UI/UX Pro Max - 设计智能
 
 一个可搜索的数据库，包含 UI 风格、配色方案、字体搭配、图表类型、产品推荐、UX 准则以及特定技术栈的最佳实践。

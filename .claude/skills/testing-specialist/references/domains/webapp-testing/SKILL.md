@@ -4,6 +4,26 @@ description: 使用 Playwright 与本地 Web 应用程序交互和测试的工�
 license: Complete terms in LICENSE.txt
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/testing-specialist/references/domains/webapp-testing/`
+
+```
+webapp-testing/
+├── examples/
+│   ├── console_logging.py
+│   ├── element_discovery.py
+│   └── static_html_automation.py
+├── scripts/
+│   └── with_server.py
+├── LICENSE.txt
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # Web Application Testing
 
 To test local web applications, write native Python Playwright scripts.

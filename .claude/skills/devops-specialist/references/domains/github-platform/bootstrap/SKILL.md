@@ -4,6 +4,37 @@ description: 一站式 GitHub 仓库配置初始化工具。
 allowed-tools: Task, AskUserQuestion, Read, Bash, Glob, Grep, Write
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/devops-specialist/references/domains/github-platform/bootstrap/`
+
+```
+bootstrap/
+├── phases/
+│   ├── 01-detection.md
+│   ├── 02-collection.md
+│   ├── 02.1-quick-mode.md
+│   ├── 02.2-custom-mode.md
+│   ├── 02.3-full-mode.md
+│   ├── 02.9-finalize-config.md
+│   ├── 03-conflict.md
+│   ├── 04-execution.md
+│   └── 05-report.md
+├── specs/
+│   ├── detection-rules.md
+│   ├── execution-rules.md
+│   ├── manual-actions.md
+│   ├── presets.md
+│   └── template-catalog.md
+├── templates/
+│   └── README.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # gh-bootstrap
 
 一站式 GitHub 仓库配置初始化工具，将项目配置时间从数小时缩短到几分钟。

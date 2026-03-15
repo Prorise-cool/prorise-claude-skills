@@ -4,6 +4,29 @@ description: Multi-phase iterative project analysis with Mermaid diagrams. Gener
 allowed-tools: Task, AskUserQuestion, Read, Bash, Glob, Grep, Write
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/architecture-specialist/references/domains/project-analysis/`
+
+```
+project-analysis/
+├── phases/
+│   ├── 01-requirements-discovery.md
+│   ├── 02-project-exploration.md
+│   ├── 03-deep-analysis.md
+│   ├── 03.5-consolidation.md
+│   ├── 04-report-generation.md
+│   └── 05-iterative-refinement.md
+├── specs/
+│   ├── quality-standards.md
+│   └── writing-style.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # Project Analysis Skill
 
 Generate comprehensive project analysis reports through multi-phase iterative workflow.

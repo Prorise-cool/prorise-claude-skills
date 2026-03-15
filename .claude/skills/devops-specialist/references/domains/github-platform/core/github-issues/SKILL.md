@@ -4,6 +4,23 @@ description: Query and search GitHub issues using gh CLI with web fallback. Supp
 allowed-tools: Bash, Read, Glob, Grep, WebFetch, WebSearch
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/devops-specialist/references/domains/github-platform/core/github-issues/`
+
+```
+github-issues/
+├── references/
+│   ├── gh-cli-guide.md
+│   ├── query-patterns.md
+│   └── web-fallback.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # GitHub Issues Lookup
 
 Query and search GitHub issues for troubleshooting, bug tracking, and finding workarounds. Supports `gh` CLI with automatic web fallback.

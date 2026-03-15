@@ -14,6 +14,20 @@ scenarios:
   - "Help me decide if this roadmap request has enough ROI to build"
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/product-specialist/references/domains/product-management/feature-investment-advisor/`
+
+```
+feature-investment-advisor/
+├── examples/
+│   └── conversation-flow.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
 
 ## Purpose
 

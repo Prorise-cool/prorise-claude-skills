@@ -3,6 +3,70 @@ name: ruoyi-framework
 description: 使用 RuoYi-Vue 框架（SpringBoot + Spring Security + MyBatis + JWT + Vue）时应该使用此技能。它提供了环境设置、项目结构、后端 CRUD 开发、高级后端功能（权限、日志记录、调度、数据范围、多数据源）、前端开发（路由、请求处理、组件、i18n）、代码生成和插件集成（Docker、PostgreSQL、SpringBoot3、OSS）的指导。。由 RuoYi、ruoyi、PageHelper、@Excel、@PreAuthorize、@DataScope、@Log、ExcelUtil、AjaxResult、vue-element-admin、Element UI admin 等关键字触发。
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/open-source-project-specialist/references/domains/projects/ruoyi/`
+
+```
+ruoyi/
+├── references/
+│   ├── backend-advanced/
+│   │   ├── phases/
+│   │   │   ├── 01-permission-control.md
+│   │   │   ├── 03-transaction-logging.md
+│   │   │   ├── 05-task-scheduling.md
+│   │   │   ├── 07-data-scope.md
+│   │   │   └── 09-multi-datasource.md
+│   │   └── best-practices.md
+│   ├── backend-crud/
+│   │   ├── phases/
+│   │   │   ├── 01-pagination-query.md
+│   │   │   ├── 03-import-export.md
+│   │   │   ├── 05-upload-download.md
+│   │   │   └── 07-data-validation.md
+│   │   └── best-practices.md
+│   ├── code-generation/
+│   │   ├── phases/
+│   │   │   ├── 01-generator-setup.md
+│   │   │   ├── 03-single-table.md
+│   │   │   ├── 05-tree-table.md
+│   │   │   └── 07-sub-table.md
+│   │   └── best-practices.md
+│   ├── environment-setup/
+│   │   ├── phases/
+│   │   │   ├── 01-dev-environment.md
+│   │   │   ├── 03-backend-deploy.md
+│   │   │   ├── 05-frontend-deploy.md
+│   │   │   └── 07-production-deploy.md
+│   │   └── best-practices.md
+│   ├── frontend-dev/
+│   │   ├── phases/
+│   │   │   ├── 01-routing-menu.md
+│   │   │   ├── 03-request-auth.md
+│   │   │   ├── 05-components-usage.md
+│   │   │   └── 07-i18n-theming.md
+│   │   └── best-practices.md
+│   ├── plugin-integration/
+│   │   ├── phases/
+│   │   │   ├── 01-docker-deploy.md
+│   │   │   ├── 03-database-switch.md
+│   │   │   ├── 05-oss-integration.md
+│   │   │   ├── 07-springboot3-upgrade.md
+│   │   │   └── 09-monitoring-tools.md
+│   │   └── best-practices.md
+│   └── project-structure/
+│       ├── phases/
+│       │   ├── 01-backend-modules.md
+│       │   ├── 03-frontend-structure.md
+│       │   └── 05-config-management.md
+│       └── best-practices.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # RuoYi-Vue框架开发指南
 
 RuoYi-Vue是一个基于SpringBoot、Spring Security、MyBatis、JWT、Vue的Java EE企业快速开发平台。该技能提供了开发、扩展和部署 RuoYi-Vue 应用程序的程序知识。

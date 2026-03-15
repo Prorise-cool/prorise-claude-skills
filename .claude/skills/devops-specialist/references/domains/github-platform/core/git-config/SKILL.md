@@ -4,6 +4,27 @@ description: Comprehensive Git configuration guide covering global settings, ali
 allowed-tools: Read, Bash, Glob, Grep
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/devops-specialist/references/domains/github-platform/core/git-config/`
+
+```
+git-config/
+├── references/
+│   ├── aliases.md
+│   ├── configuration-basics.md
+│   ├── credential-management.md
+│   ├── global-configuration.md
+│   ├── quick-reference.md
+│   ├── test-scenarios.md
+│   └── troubleshooting.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # Git Configuration
 
 Comprehensive guidance for configuring Git beyond basic installation. This skill covers global configuration, performance optimization, aliases, credential management, maintenance, and advanced configuration topics.

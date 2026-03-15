@@ -4,6 +4,23 @@ description: Advanced GPG multi-key management strategies for consultants, CI/CD
 allowed-tools: Read, Bash, Glob, Grep
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/devops-specialist/references/domains/github-platform/core/gpg-multi-key/`
+
+```
+gpg-multi-key/
+├── references/
+│   ├── backup-recovery.md
+│   ├── implementation-example.md
+│   └── scenarios.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # GPG Multi-Key
 
 Advanced strategies for managing multiple GPG keys across different contexts: personal development, CI/CD automation, multi-client consultant work, and enterprise environments.

@@ -4,6 +4,22 @@ description: Stakeholder identification, analysis, and management using BABOK te
 allowed-tools: Read, Glob, Grep, Task, Skill
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/product-specialist/references/domains/business-analysis/stakeholder-analysis/`
+
+```
+stakeholder-analysis/
+├── references/
+│   ├── power-interest-matrix.md
+│   └── raci-matrix.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # Stakeholder Analysis
 
 Identify, analyze, and plan engagement strategies for project and initiative stakeholders. Based on BABOK v3 Elicitation & Collaboration knowledge area.

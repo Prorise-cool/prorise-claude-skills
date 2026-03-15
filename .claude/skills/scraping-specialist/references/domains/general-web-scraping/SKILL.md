@@ -2,6 +2,23 @@
 name: web-scraping-playbook
 description: 当需要对任意网站制定抓取方案、做站点侦察、发现 sitemap 或 API、选择最优抓取路径、处理 403/Cloudflare/限流，或把抓取逻辑升级为可维护的生产方案时使用。适用于“抓这个站”“先判断有没有接口”“被反爬挡住了”“把这个抓取流程做成可持续运行的 scraper” 等场景。
 ---
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/scraping-specialist/references/domains/general-web-scraping/`
+
+```
+general-web-scraping/
+├── references/
+│   ├── anti-blocking-and-production.md
+│   └── reconnaissance-and-strategy.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # 通用网站抓取作战手册
 
 此技能用于陌生站点的第一轮判断与实施路线设计。目标不是立刻写大量代码，而是先确认最省成本、最稳的抓取路径。
@@ -50,6 +67,12 @@ description: 当需要对任意网站制定抓取方案、做站点侦察、发�
 - 规范输入输出。
 - 增加重试、日志、断点续跑和失败处理。
 - 必要时迁移到 Apify / Crawlee 或项目内稳定任务系统。
+
+## 何时切换到专门子技能
+
+- 已明确要用 Firecrawl 做搜索、抓单页、站点映射或整站 crawl 时，转入 `firecrawl-web-extraction`。
+- 需要 Python 级 fetcher 选择、Cloudflare 绕过、会话登录或直接基于模板生成脚本时，转入 `scrapling-web-scraper`。
+- 需要 `crwl` CLI、多 URL 并发、Markdown 流水线或 schema 化抽取时，转入 `crawl4ai-pipeline-builder`。
 
 ## 输出要求
 

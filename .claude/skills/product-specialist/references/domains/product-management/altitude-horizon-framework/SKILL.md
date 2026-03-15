@@ -16,6 +16,21 @@ scenarios:
 estimated_time: "10-15 min"
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/product-specialist/references/domains/product-management/altitude-horizon-framework/`
+
+```
+altitude-horizon-framework/
+├── examples/
+│   └── sample.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 ## Purpose
 
 Defines the two-axis mental model that distinguishes Director-level thinking from PM thinking: **Altitude** (how wide you zoom out) and **Horizon** (how far ahead you look). Use this to understand what actually changes in the transition, diagnose which transition zone is creating friction, and apply the Cascading Context Map when organizational direction is vague or absent.

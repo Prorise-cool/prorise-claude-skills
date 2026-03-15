@@ -4,6 +4,24 @@ description: 创建有效技能的指南。当用户想要创建新技能（或�
 license: Complete terms in LICENSE.txt
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/operations-specialist/references/domains/skill-lifecycle/creator/`
+
+```
+creator/
+├── scripts/
+│   ├── init_skill.py
+│   ├── package_skill.py
+│   └── quick_validate.py
+├── LICENSE.txt
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # Skill Creator
 
 This skill provides guidance for creating effective skills.

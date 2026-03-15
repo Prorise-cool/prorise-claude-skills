@@ -4,6 +4,88 @@ description: "全面的文档创建、编辑和分析，支持跟踪更改、评
 license: Proprietary. LICENSE.txt has complete terms
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/documentation-specialist/references/domains/document-formats/docx/`
+
+```
+docx/
+├── ooxml/
+│   ├── schemas/
+│   │   ├── ecma/
+│   │   │   └── fouth-edition/
+│   │   │       ├── opc-contentTypes.xsd
+│   │   │       ├── opc-coreProperties.xsd
+│   │   │       ├── opc-digSig.xsd
+│   │   │       └── opc-relationships.xsd
+│   │   ├── ISO-IEC29500-4_2016/
+│   │   │   ├── dml-chart.xsd
+│   │   │   ├── dml-chartDrawing.xsd
+│   │   │   ├── dml-diagram.xsd
+│   │   │   ├── dml-lockedCanvas.xsd
+│   │   │   ├── dml-main.xsd
+│   │   │   ├── dml-picture.xsd
+│   │   │   ├── dml-spreadsheetDrawing.xsd
+│   │   │   ├── dml-wordprocessingDrawing.xsd
+│   │   │   ├── pml.xsd
+│   │   │   ├── shared-additionalCharacteristics.xsd
+│   │   │   ├── shared-bibliography.xsd
+│   │   │   ├── shared-commonSimpleTypes.xsd
+│   │   │   ├── shared-customXmlDataProperties.xsd
+│   │   │   ├── shared-customXmlSchemaProperties.xsd
+│   │   │   ├── shared-documentPropertiesCustom.xsd
+│   │   │   ├── shared-documentPropertiesExtended.xsd
+│   │   │   ├── shared-documentPropertiesVariantTypes.xsd
+│   │   │   ├── shared-math.xsd
+│   │   │   ├── shared-relationshipReference.xsd
+│   │   │   ├── sml.xsd
+│   │   │   ├── vml-main.xsd
+│   │   │   ├── vml-officeDrawing.xsd
+│   │   │   ├── vml-presentationDrawing.xsd
+│   │   │   ├── vml-spreadsheetDrawing.xsd
+│   │   │   ├── vml-wordprocessingDrawing.xsd
+│   │   │   ├── wml.xsd
+│   │   │   └── xml.xsd
+│   │   ├── mce/
+│   │   │   └── mc.xsd
+│   │   └── microsoft/
+│   │       ├── wml-2010.xsd
+│   │       ├── wml-2012.xsd
+│   │       ├── wml-2018.xsd
+│   │       ├── wml-cex-2018.xsd
+│   │       ├── wml-cid-2016.xsd
+│   │       ├── wml-sdtdatahash-2020.xsd
+│   │       └── wml-symex-2015.xsd
+│   └── scripts/
+│       ├── validation/
+│       │   ├── __init__.py
+│       │   ├── base.py
+│       │   ├── docx.py
+│       │   ├── pptx.py
+│       │   └── redlining.py
+│       ├── pack.py
+│       ├── unpack.py
+│       └── validate.py
+├── scripts/
+│   ├── templates/
+│   │   ├── comments.xml
+│   │   ├── commentsExtended.xml
+│   │   ├── commentsExtensible.xml
+│   │   ├── commentsIds.xml
+│   │   └── people.xml
+│   ├── __init__.py
+│   ├── document.py
+│   └── utilities.py
+├── docx-js.md
+├── LICENSE.txt
+├── ooxml.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # DOCX creation, editing, and analysis
 
 ## Overview

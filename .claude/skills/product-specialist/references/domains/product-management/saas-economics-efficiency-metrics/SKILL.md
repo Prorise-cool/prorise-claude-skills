@@ -14,6 +14,22 @@ scenarios:
   - "I need a SaaS efficiency check for our board deck"
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/product-specialist/references/domains/product-management/saas-economics-efficiency-metrics/`
+
+```
+saas-economics-efficiency-metrics/
+├── examples/
+│   ├── cash-trap.md
+│   └── healthy-unit-economics.md
+├── SKILL.md
+└── template.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
 
 ## Purpose
 

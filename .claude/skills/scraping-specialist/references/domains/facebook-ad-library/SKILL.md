@@ -2,6 +2,22 @@
 name: facebook-ad-library-scraper
 description: 当需要抓取 Facebook Ad Library 广告素材、下载图片和视频、提取转写内容、整理品牌广告素材库或分析竞品创意形式时使用。适用于“抓 Facebook 广告库”“把某品牌广告素材存下来”“分析广告视频文案和创意样式”等场景。
 ---
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/scraping-specialist/references/domains/facebook-ad-library/`
+
+```
+facebook-ad-library/
+├── references/
+│   └── output-schema.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # Facebook 广告库素材采集
 
 此技能用于采集 Facebook Ad Library 中的广告创意素材，并整理为后续可分析的数据包。

@@ -15,6 +15,22 @@ scenarios:
 estimated_time: "10-15 min"
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/product-specialist/references/domains/product-management/saas-revenue-growth-metrics/`
+
+```
+saas-revenue-growth-metrics/
+├── examples/
+│   ├── healthy-saas.md
+│   └── warning-signs.md
+├── SKILL.md
+└── template.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
 
 ## Purpose
 

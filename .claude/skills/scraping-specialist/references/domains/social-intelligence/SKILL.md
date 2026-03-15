@@ -2,6 +2,22 @@
 name: x-topic-intelligence
 description: 当需要在 X/Twitter 上围绕某个主题收集热门帖子、趋势讨论、KOL 内容、钩子写法、回复驱动内容或社媒情报数据集时使用。适用于内容调研、舆情研究、话题扫描、社媒竞品观察和内容机会分析等场景，优先快速模式，深入采集时再做多轮 DOM 抓取。
 ---
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/scraping-specialist/references/domains/social-intelligence/`
+
+```
+social-intelligence/
+├── references/
+│   └── search-rounds.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # X / Twitter 主题情报采集
 
 此技能用于围绕一个主题系统性收集 X/Twitter 内容，并输出结构化情报。

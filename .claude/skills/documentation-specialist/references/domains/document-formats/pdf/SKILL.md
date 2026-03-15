@@ -4,6 +4,31 @@ description: 全面的 PDF 操作工具包，用于提取文本和表格、创�
 license: Proprietary. LICENSE.txt has complete terms
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/documentation-specialist/references/domains/document-formats/pdf/`
+
+```
+pdf/
+├── scripts/
+│   ├── check_bounding_boxes_test.py
+│   ├── check_bounding_boxes.py
+│   ├── check_fillable_fields.py
+│   ├── convert_pdf_to_images.py
+│   ├── create_validation_image.py
+│   ├── extract_form_field_info.py
+│   ├── fill_fillable_fields.py
+│   └── fill_pdf_form_with_annotations.py
+├── forms.md
+├── LICENSE.txt
+├── reference.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # PDF Processing Guide
 
 ## Overview

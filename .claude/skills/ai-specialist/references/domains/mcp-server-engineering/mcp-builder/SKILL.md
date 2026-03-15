@@ -4,6 +4,30 @@ description: 创建高质量 MCP（模型上下文协议）服务器的指南，
 license: Complete terms in LICENSE.txt
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/ai-specialist/references/domains/mcp-server-engineering/mcp-builder/`
+
+```
+mcp-builder/
+├── reference/
+│   ├── evaluation.md
+│   ├── mcp_best_practices.md
+│   ├── node_mcp_server.md
+│   └── python_mcp_server.md
+├── scripts/
+│   ├── connections.py
+│   ├── evaluation.py
+│   ├── example_evaluation.xml
+│   └── requirements.txt
+├── LICENSE.txt
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # MCP Server Development Guide
 
 ## Overview

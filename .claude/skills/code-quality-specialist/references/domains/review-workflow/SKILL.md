@@ -4,6 +4,44 @@ description: Multi-dimensional code review with structured reports. Analyzes cor
 allowed-tools: Task, AskUserQuestion, Read, Write, Glob, Grep, Bash, mcp__ace-tool__search_context, mcp__ide__getDiagnostics
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/code-quality-specialist/references/domains/review-workflow/`
+
+```
+review-workflow/
+├── phases/
+│   ├── actions/
+│   │   ├── action-collect-context.md
+│   │   ├── action-complete.md
+│   │   ├── action-deep-review.md
+│   │   ├── action-generate-report.md
+│   │   └── action-quick-scan.md
+│   ├── orchestrator.md
+│   ├── state-manager.md
+│   └── state-schema.md
+├── specs/
+│   ├── rules/
+│   │   ├── architecture-rules.json
+│   │   ├── correctness-rules.json
+│   │   ├── index.md
+│   │   ├── performance-rules.json
+│   │   ├── readability-rules.json
+│   │   ├── security-rules.json
+│   │   └── testing-rules.json
+│   ├── issue-classification.md
+│   ├── quality-standards.md
+│   └── review-dimensions.md
+├── templates/
+│   ├── issue-template.md
+│   └── review-report.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # Review Code
 
 Multi-dimensional code review skill that analyzes code across 6 key dimensions and generates structured review reports with actionable recommendations.

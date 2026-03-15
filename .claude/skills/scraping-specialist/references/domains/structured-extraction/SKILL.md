@@ -2,6 +2,22 @@
 name: structured-web-data-extractor
 description: 当需要把网页目录、联系人、校友录、参会者、商家列表、会员名录、公司列表或分页列表页数据提取成 CSV、JSON 或表格时使用。适用于“把这个页面所有记录抓成表格”“抓取登录后的名录”“批量导出目录页数据”“提取滚动加载列表”等场景，优先使用 Playwright MCP。
 ---
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/scraping-specialist/references/domains/structured-extraction/`
+
+```
+structured-extraction/
+├── scripts/
+│   └── setup.sh
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # 结构化网页数据提取
 
 此技能专注于“把网页上的一批记录整理成结构化输出”。它适合目录页、滚动列表、分页列表和轻度登录站点，不适合先做大规模侦察或处理复杂反爬。

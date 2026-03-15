@@ -14,6 +14,20 @@ scenarios:
   - "Help me decide whether to scale or kill our webinar acquisition channel"
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/product-specialist/references/domains/product-management/acquisition-channel-advisor/`
+
+```
+acquisition-channel-advisor/
+├── examples/
+│   └── conversation-flow.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
 
 ## Purpose
 

@@ -4,6 +4,30 @@ description: Generate software copyright design specification documents complian
 allowed-tools: Task, AskUserQuestion, Read, Bash, Glob, Grep, Write
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/documentation-specialist/references/domains/compliance-copyright/`
+
+```
+compliance-copyright/
+├── phases/
+│   ├── 01-metadata-collection.md
+│   ├── 01.5-project-exploration.md
+│   ├── 02-deep-analysis.md
+│   ├── 02.5-consolidation.md
+│   ├── 04-document-assembly.md
+│   └── 05-compliance-refinement.md
+├── specs/
+│   └── cpcc-requirements.md
+├── templates/
+│   └── agent-base.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # Software Copyright Documentation Skill
 
 Generate CPCC-compliant software design specification documents (软件设计说明书) through multi-phase code analysis.

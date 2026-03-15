@@ -4,6 +4,27 @@ description: Comprehensive guide to GPG commit signing. Set up, configure, and t
 allowed-tools: Read, Bash, Glob, Grep
 ---
 
+<!-- AUTO-GENERATED-RESOURCE-MAP:START -->
+
+### Resource Map
+
+> 基准路径: `.claude/skills/devops-specialist/references/domains/github-platform/core/gpg-signing/`
+
+```
+gpg-signing/
+├── references/
+│   ├── gpg-agent-config-example.conf
+│   ├── passphrase-caching.md
+│   ├── quick-reference.md
+│   ├── security-best-practices.md
+│   ├── test-scenarios.md
+│   ├── troubleshooting.md
+│   └── windows-setup.md
+└── SKILL.md
+```
+
+<!-- AUTO-GENERATED-RESOURCE-MAP:END -->
+
 # Git GPG Signing
 
 Comprehensive guidance for setting up, configuring, and troubleshooting GPG commit signing across all platforms.
