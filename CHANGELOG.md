@@ -1,5 +1,43 @@
 # Changelog
 
+## [2026-03-15]
+
+### Added
+
+- **ai-specialist**: 提供 AI 应用开发、MCP 服务器工程、提示词工程与智能体框架集成能力。当需要构建或优化基于大模型的功能、工作流或平台集成时使用。
+- **architecture-specialist**: 提供系统架构设计、技术选型、架构审查和组件设计能力。当需要设计新系统、重构现有架构或进行架构审查时使用。
+- **backend-specialist**: 提供后端开发、API 设计、数据库交互和框架特定开发能力。当需要实现后端功能、设计 API 或处理数据层逻辑时使用。
+- **code-quality-specialist**: 提供代码审查、性能分析、重构建议、错误诊断和调试能力。当需要代码质量评估、性能优化、或问题排查时使用。
+- **data-specialist**: 提供数据库设计、优化、数据工程和数据分析能力。当需要处理数据库操作、数据管道或数据分析时使用。
+- **design-specialist**: 提供 UI/UX 设计、用户研究、视觉设计和品牌一致性能力。当需要设计界面、进行用户研究或创建视觉资产时使用。
+- **devops-specialist**: 提供部署、CI/CD、基础设施管理和 DevOps 自动化能力。当需要部署应用、配置基础设施或优化开发流程时使用。
+- **documentation-specialist**: 创建和维护技术文档、API 文档、代码注释和项目文档。当需要生成、更新或改进文档时使用。
+- **frontend-specialist**: 提供前端开发、UI 实现、移动应用开发和现代前端框架能力。当需要实现用户界面、构建组件或开发移动应用时使用。
+- **marketing-specialist**: 提供内容营销、增长策略、社交媒体管理和应用商店优化能力。当需要创建营销内容、制定增长策略或管理社交媒体时使用。
+- **operations-specialist**: 提供运营分析、财务跟踪、基础设施维护和客户支持能力。当需要处理运营任务、生成报告或维护系统时使用。
+- **product-specialist**: 提供产品规划、需求分析、市场研究和业务分析能力。当需要进行产品决策、需求分析或市场研究时使用。
+- **project-management-specialist**: 提供项目管理、任务跟踪、团队协调和项目交付能力。当需要管理项目、跟踪进度或协调团队时使用。
+- **security-specialist**: 提供安全审计、风险评估和合规检查能力。当需要进行安全审查、风险评估或合规验证时使用。
+- **testing-specialist**: 提供测试策略、测试编写、测试执行和测试结果分析能力。当需要编写测试、修复测试或优化测试流程时使用。
+
+### Updated
+
+- **ai-specialist**: Updated
+- **architecture-specialist**: Updated
+- **backend-specialist**: Updated
+- **code-quality-specialist**: Updated
+- **data-specialist**: Updated
+- **design-specialist**: Updated
+- **devops-specialist**: Updated
+- **documentation-specialist**: Updated
+- **frontend-specialist**: Updated
+- **marketing-specialist**: Updated
+- **operations-specialist**: Updated
+- **product-specialist**: Updated
+- **project-management-specialist**: Updated
+- **security-specialist**: Updated
+- **testing-specialist**: Updated
+
 ## [2026-03-11]
 
 ### Added
